@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-04T22:46:46.187Z</updated>
+  <updated>2018-12-04T22:57:35.690Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,20 +21,18 @@
     <link href="http://yoursite.com/2018/12/05/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%E9%80%B2%E5%B1%95/"/>
     <id>http://yoursite.com/2018/12/05/美中貿易戰進展/</id>
     <published>2018-12-04T22:32:21.000Z</published>
-    <updated>2018-12-04T22:46:46.187Z</updated>
+    <updated>2018-12-04T22:57:35.690Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;tags:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;美中貿易戰進展&lt;/li&gt;
-&lt;li&gt;etc…&lt;br&gt;  美中貿易戰12.1起，暫停90天。雙方都有緩和的意願，貿易戰暫時緩解。&lt;br&gt;  對此，唯一能證明的就是刺破氣球的那根針還沒有出現。&lt;br&gt;  整個市場目前已經處於膨脹期。並不因爲貿
-      
+      &lt;p&gt;美中貿易戰12.1起，暫停90天。雙方都有緩和的意願，貿易戰暫時緩解。&lt;br&gt;對此，唯一能證明的就是刺破氣球的那根針還沒有出現。&lt;br&gt;
     
     </summary>
     
+    
+      <category term="美中貿易戰進展" scheme="http://yoursite.com/tags/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%E9%80%B2%E5%B1%95/"/>
+    
+      <category term="市場" scheme="http://yoursite.com/tags/%E5%B8%82%E5%A0%B4/"/>
     
   </entry>
   
