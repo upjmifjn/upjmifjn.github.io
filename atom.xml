@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-04T22:57:35.690Z</updated>
+  <updated>2018-12-05T03:00:03.216Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,13 +21,15 @@
     <link href="http://yoursite.com/2018/12/05/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%E9%80%B2%E5%B1%95/"/>
     <id>http://yoursite.com/2018/12/05/美中貿易戰進展/</id>
     <published>2018-12-04T22:32:21.000Z</published>
-    <updated>2018-12-04T22:57:35.690Z</updated>
+    <updated>2018-12-05T03:00:03.216Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;美中貿易戰12.1起，暫停90天。雙方都有緩和的意願，貿易戰暫時緩解。&lt;br&gt;對此，唯一能證明的就是刺破氣球的那根針還沒有出現。&lt;br&gt;
     
     </summary>
+    
+      <category term="市場" scheme="http://yoursite.com/categories/%E5%B8%82%E5%A0%B4/"/>
     
     
       <category term="美中貿易戰進展" scheme="http://yoursite.com/tags/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%E9%80%B2%E5%B1%95/"/>
@@ -41,7 +43,7 @@
     <link href="http://yoursite.com/2018/12/04/DuckDuckGo%E6%90%9C%E7%B4%A2%E6%8A%80%E5%B7%A7/"/>
     <id>http://yoursite.com/2018/12/04/DuckDuckGo搜索技巧/</id>
     <published>2018-12-04T07:15:33.000Z</published>
-    <updated>2018-12-04T07:34:29.568Z</updated>
+    <updated>2018-12-05T02:58:20.517Z</updated>
     
     <summary type="html">
     
@@ -49,6 +51,8 @@
 &lt;p&gt;2、qr 生成二維碼&lt;br&gt;    qr 123&lt;br&gt;
     
     </summary>
+    
+      <category term="網絡" scheme="http://yoursite.com/categories/%E7%B6%B2%E7%B5%A1/"/>
     
     
       <category term="DuckDuckGo搜索技巧" scheme="http://yoursite.com/tags/DuckDuckGo%E6%90%9C%E7%B4%A2%E6%8A%80%E5%B7%A7/"/>
@@ -60,7 +64,7 @@
     <link href="http://yoursite.com/2018/12/03/Linux%E7%A6%81%E7%94%A8%E8%A7%B8%E6%91%B8%E5%B1%8F-%E9%BC%A0%E6%A8%99%E4%BA%82%E9%BB%9E/"/>
     <id>http://yoursite.com/2018/12/03/Linux禁用觸摸屏-鼠標亂點/</id>
     <published>2018-12-03T00:47:47.000Z</published>
-    <updated>2018-12-04T12:16:26.003Z</updated>
+    <updated>2018-12-05T02:59:28.378Z</updated>
     
     <summary type="html">
     
@@ -69,6 +73,8 @@
 &lt;p&gt;在列出的輸入設備列表中查找觸摸屏對應的名稱Atmel Atmel maXTouch Digitizer和id 12(註意：id每次插入新的硬件例如鼠標鍵盤等，可能會導致id號發生變化)&lt;br&gt;
     
     </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
       <category term="禁用觸摸屏" scheme="http://yoursite.com/tags/%E7%A6%81%E7%94%A8%E8%A7%B8%E6%91%B8%E5%B1%8F/"/>
