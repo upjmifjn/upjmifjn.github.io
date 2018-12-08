@@ -106,18 +106,18 @@
 
 
 
-  <meta name="description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入123$ xinput或$ xinput list 在列出的輸入設備列表中查找觸摸屏對應的名稱Atmel Atmel maXTouch Digitizer和id 12(註意：id每次插入新的硬件例如鼠標鍵盤等，可能會導致id號發生變化)">
+  <meta name="description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入">
 <meta name="keywords" content="禁用觸摸屏,鼠標亂點">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux禁用觸摸屏-鼠標亂點">
 <meta property="og:url" content="http://yoursite.com/2018/12/03/Linux禁用觸摸屏-鼠標亂點/index.html">
 <meta property="og:site_name" content="投機者">
-<meta property="og:description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入123$ xinput或$ xinput list 在列出的輸入設備列表中查找觸摸屏對應的名稱Atmel Atmel maXTouch Digitizer和id 12(註意：id每次插入新的硬件例如鼠標鍵盤等，可能會導致id號發生變化)">
+<meta property="og:description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入">
 <meta property="og:locale" content="zh-TW">
-<meta property="og:updated_time" content="2018-12-05T02:59:28.378Z">
+<meta property="og:updated_time" content="2018-12-08T05:21:13.483Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux禁用觸摸屏-鼠標亂點">
-<meta name="twitter:description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入123$ xinput或$ xinput list 在列出的輸入設備列表中查找觸摸屏對應的名稱Atmel Atmel maXTouch Digitizer和id 12(註意：id每次插入新的硬件例如鼠標鍵盤等，可能會導致id號發生變化)">
+<meta name="twitter:description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入">
 
 
 
@@ -415,7 +415,7 @@
                 
                   <span class="post-meta-item-text">更新於</span>
                 
-                <time title="修改時間：2018-12-05 10:59:28" itemprop="dateModified" datetime="2018-12-05T10:59:28+08:00">2018-12-05</time>
+                <time title="修改時間：2018-12-08 13:21:13" itemprop="dateModified" datetime="2018-12-08T13:21:13+08:00">2018-12-08</time>
               
             
           </span>
@@ -467,8 +467,8 @@
 
       
         <p>1.安裝輸入設備列表查看xinput<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install xinput</span><br></pre></td></tr></table></figure></p>
-<p>2.終端輸入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ xinput</span><br><span class="line">或</span><br><span class="line">$ xinput list</span><br></pre></td></tr></table></figure></p>
-<p>在列出的輸入設備列表中查找觸摸屏對應的名稱Atmel Atmel maXTouch Digitizer和id 12(註意：id每次插入新的硬件例如鼠標鍵盤等，可能會導致id號發生變化)<br><a id="more"></a><br>3.設置觸摸屏的enabled屬性為0，禁用觸摸屏<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ xinput <span class="built_in">set</span>-prop 12 <span class="string">'Device Enabled'</span> 0</span><br><span class="line">或</span><br><span class="line">$ xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 0</span><br></pre></td></tr></table></figure></p>
+<p>2.終端輸入<a id="more"></a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ xinput</span><br><span class="line">或</span><br><span class="line">$ xinput list</span><br></pre></td></tr></table></figure></p>
+<p>在列出的輸入設備列表中查找觸摸屏對應的名稱Atmel Atmel maXTouch Digitizer和id 12(註意：id每次插入新的硬件例如鼠標鍵盤等，可能會導致id號發生變化)<br>3.設置觸摸屏的enabled屬性為0，禁用觸摸屏<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ xinput <span class="built_in">set</span>-prop 12 <span class="string">'Device Enabled'</span> 0</span><br><span class="line">或</span><br><span class="line">$ xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 0</span><br></pre></td></tr></table></figure></p>
 <p>4.查看觸摸屏屬性列表<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ xinput list-props 12</span><br></pre></td></tr></table></figure></p>
 <p>5.重啓後會恢復默認屬性，所以用腳本/添加開機自啓來禁用觸摸屏比較好。<br>腳本:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo sh Touchscreen.sh off <span class="comment">#註意後面的參數</span></span><br></pre></td></tr></table></figure></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$1</span> = <span class="string">'on'</span> ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">     xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 1</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"觸摸屏開啓成功！"</span></span><br><span class="line"><span class="keyword">elif</span> [ <span class="variable">$1</span> = <span class="string">'off'</span> ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">    xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 0</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"觸摸屏關閉成功！"</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"請輸入參數：on/off"</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"開啓觸摸屏：TouchDigitizerEnabled on"</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"禁用觸摸屏：TouchDigitizerEnabled off"</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
@@ -605,7 +605,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-count">9</span>
                     <span class="site-state-item-name">文章</span>
                   </a>
                 </div>
@@ -659,7 +659,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">9</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">標籤</span>
                   </a>
                 </div>
