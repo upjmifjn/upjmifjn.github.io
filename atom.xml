@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-29T05:52:22.130Z</updated>
+  <updated>2018-12-30T06:41:13.842Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CPTPP</title>
+    <link href="http://yoursite.com/2018/12/30/CPTPP/"/>
+    <id>http://yoursite.com/2018/12/30/CPTPP/</id>
+    <published>2018-12-30T06:34:01.000Z</published>
+    <updated>2018-12-30T06:41:13.842Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt; CPTPP的11個簽約國今年3月8日在智利聖地牙哥正式簽署協定，包括澳洲、汶萊、加拿大、智利、日本、馬來西亞、墨西哥、紐西蘭、秘魯、新加坡及越南。
+    
+    </summary>
+    
+    
+      <category term="《跨太平洋夥伴全面進步協定》" scheme="http://yoursite.com/tags/%E3%80%8A%E8%B7%A8%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%A4%A5%E4%BC%B4%E5%85%A8%E9%9D%A2%E9%80%B2%E6%AD%A5%E5%8D%94%E5%AE%9A%E3%80%8B/"/>
+    
+      <category term="CPTPP" scheme="http://yoursite.com/tags/CPTPP/"/>
+    
+  </entry>
   
   <entry>
     <title>投機者</title>
