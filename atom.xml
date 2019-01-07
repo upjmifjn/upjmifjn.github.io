@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-02T03:07:03.400Z</updated>
+  <updated>2019-01-07T02:34:28.049Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>電子紙E Ink</title>
+    <link href="http://yoursite.com/2019/01/07/%E9%9B%BB%E5%AD%90%E7%B4%99/"/>
+    <id>http://yoursite.com/2019/01/07/電子紙/</id>
+    <published>2019-01-07T02:32:21.000Z</published>
+    <updated>2019-01-07T02:34:28.049Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;電子墨水（英语：E Ink）是指電子墨水公司（E Ink Corporation）[1]製造的電子紙。该公司成立于1997年，建基於美國麻省理工學院媒體實驗室（MIT Media Lab）的研究。&lt;br&gt;電子墨水通常会制成薄膜，用于電子顯示器，尤其用於電子書，
+    
+    </summary>
+    
+      <category term="電子紙" scheme="http://yoursite.com/categories/%E9%9B%BB%E5%AD%90%E7%B4%99/"/>
+    
+    
+      <category term="電子紙" scheme="http://yoursite.com/tags/%E9%9B%BB%E5%AD%90%E7%B4%99/"/>
+    
+      <category term="E Ink元太科技" scheme="http://yoursite.com/tags/E-Ink%E5%85%83%E5%A4%AA%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
   
   <entry>
     <title>富爸爸與窮爸爸之現金流101/202遊戲玩後心得分享</title>
@@ -129,7 +151,7 @@
     <link href="http://yoursite.com/2018/12/23/%E6%AD%A3%E7%A2%BA%E9%A0%90%E6%B8%AC%E7%95%B6%E4%B8%8B%E7%B6%93%E6%BF%9F%E3%80%81%E6%94%BF%E6%B2%BB%E5%92%8C%E7%A4%BE%E6%9C%83%E7%99%BC%E5%B1%95%E7%9A%84%E5%8B%95%E5%90%91/"/>
     <id>http://yoursite.com/2018/12/23/正確預測當下經濟、政治和社會發展的動向/</id>
     <published>2018-12-23T05:13:21.000Z</published>
-    <updated>2019-01-06T21:30:42.154Z</updated>
+    <updated>2019-01-07T02:28:24.313Z</updated>
     
     <summary type="html">
     
