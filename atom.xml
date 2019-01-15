@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-07T02:34:28.000Z</updated>
+  <updated>2019-01-15T05:38:08.886Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>凱利公式</title>
+    <link href="http://yoursite.com/2019/01/15/%E5%87%B1%E5%88%A9%E5%85%AC%E5%BC%8F/"/>
+    <id>http://yoursite.com/2019/01/15/凱利公式/</id>
+    <published>2019-01-15T05:15:42.000Z</published>
+    <updated>2019-01-15T05:38:08.886Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://imgur.com/7CCZW6P&quot; class=&quot;full-image&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="凱利公式" scheme="http://yoursite.com/tags/%E5%87%B1%E5%88%A9%E5%85%AC%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>電子紙E Ink</title>
@@ -381,29 +403,6 @@
     
     
       <category term="DuckDuckGo搜索技巧" scheme="http://yoursite.com/tags/DuckDuckGo%E6%90%9C%E7%B4%A2%E6%8A%80%E5%B7%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux禁用觸摸屏-鼠標亂點</title>
-    <link href="http://yoursite.com/2018/12/03/Linux%E7%A6%81%E7%94%A8%E8%A7%B8%E6%91%B8%E5%B1%8F-%E9%BC%A0%E6%A8%99%E4%BA%82%E9%BB%9E/"/>
-    <id>http://yoursite.com/2018/12/03/Linux禁用觸摸屏-鼠標亂點/</id>
-    <published>2018-12-03T00:47:47.000Z</published>
-    <updated>2018-12-29T22:52:17.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;1.安裝輸入設備列表查看xinput&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ sudo apt-get install xinput&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;2.終端輸入
-    
-    </summary>
-    
-      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
-    
-    
-      <category term="禁用觸摸屏" scheme="http://yoursite.com/tags/%E7%A6%81%E7%94%A8%E8%A7%B8%E6%91%B8%E5%B1%8F/"/>
-    
-      <category term="鼠標亂點" scheme="http://yoursite.com/tags/%E9%BC%A0%E6%A8%99%E4%BA%82%E9%BB%9E/"/>
     
   </entry>
   
