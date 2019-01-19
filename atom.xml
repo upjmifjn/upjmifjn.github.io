@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-17T01:03:27.155Z</updated>
+  <updated>2019-01-19T09:54:18.185Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>日本主導的CPTPP今天在東京舉行首次部長級會議</title>
+    <link href="http://yoursite.com/2019/01/19/%E6%97%A5%E6%9C%AC%E4%B8%BB%E5%B0%8E%E7%9A%84CPTPP%E4%BB%8A%E5%A4%A9%E5%9C%A8%E6%9D%B1%E4%BA%AC%E8%88%89%E8%A1%8C%E9%A6%96%E6%AC%A1%E9%83%A8%E9%95%B7%E7%B4%9A%E6%9C%83%E8%AD%B0/"/>
+    <id>http://yoursite.com/2019/01/19/日本主導的CPTPP今天在東京舉行首次部長級會議/</id>
+    <published>2019-01-19T07:59:54.000Z</published>
+    <updated>2019-01-19T09:54:18.185Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;日本主導的CPTPP今天在東京舉行首次部長級會議。日本首相安倍晉三致詞說：「對於與我們理念共鳴，備妥能接受TPP高標準的所有國家與地區，我們敞開大門。」&lt;br&gt;由日本主導的「跨太平洋夥伴全面進步協定」（CPTPP）去年12月生效，
+    
+    </summary>
+    
+    
+      <category term="CPTPP" scheme="http://yoursite.com/tags/CPTPP/"/>
+    
+  </entry>
   
   <entry>
     <title>人行開展5,700億人民幣逆回購,歷來單日最高</title>
@@ -379,28 +397,6 @@
     
     
       <category term="貸款:股市的競爭對手" scheme="http://yoursite.com/tags/%E8%B2%B8%E6%AC%BE-%E8%82%A1%E5%B8%82%E7%9A%84%E7%AB%B6%E7%88%AD%E5%B0%8D%E6%89%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>美中貿易戰進展</title>
-    <link href="http://yoursite.com/2018/12/05/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%E9%80%B2%E5%B1%95/"/>
-    <id>http://yoursite.com/2018/12/05/美中貿易戰進展/</id>
-    <published>2018-12-04T22:32:21.000Z</published>
-    <updated>2018-12-14T20:13:46.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;美中貿易戰12.1起，暫停90天。雙方都有緩和的意願，貿易戰暫時緩解。&lt;br&gt;對此，唯一能證明的就是刺破氣球的那根針還沒有出現。&lt;br&gt;整個市場已經處於膨脹期。並不因爲貿易戰緩解而有所改變。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="市場" scheme="http://yoursite.com/categories/%E5%B8%82%E5%A0%B4/"/>
-    
-    
-      <category term="美中貿易戰進展" scheme="http://yoursite.com/tags/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%E9%80%B2%E5%B1%95/"/>
-    
-      <category term="市場" scheme="http://yoursite.com/tags/%E5%B8%82%E5%A0%B4/"/>
     
   </entry>
   
