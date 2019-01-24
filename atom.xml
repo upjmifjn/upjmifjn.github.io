@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-22T00:47:21.378Z</updated>
+  <updated>2019-01-24T04:01:13.313Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>來年冬天，還要這麼過......</title>
+    <link href="http://yoursite.com/2019/01/24/%E4%BE%86%E5%B9%B4%E5%86%AC%E5%A4%A9%EF%BC%8C%E9%82%84%E8%A6%81%E9%80%99%E9%BA%BC%E9%81%8E/"/>
+    <id>http://yoursite.com/2019/01/24/來年冬天，還要這麼過/</id>
+    <published>2019-01-24T03:57:37.000Z</published>
+    <updated>2019-01-24T04:01:13.313Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有人吧把自己的錢給了銀行，銀行把它放進了自己的口袋。口袋還沒暖銀行又把它放貸了出去。有人繼續著自己的忙碌掙錢掙錢掙錢。銀行也繼續把別人的錢裝到自己的口袋又放貸了出去。企業家從銀行借貸出儲戶的錢，發展著自己的事業，並且創造著一個又一個的奇跡。於是，儲戶又用自己掙來的錢，
+    
+    </summary>
+    
+    
+      <category term="銀行-儲戶-企業家" scheme="http://yoursite.com/tags/%E9%8A%80%E8%A1%8C-%E5%84%B2%E6%88%B6-%E4%BC%81%E6%A5%AD%E5%AE%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>全球經濟增長放緩，和平依舊，經濟向前。</title>
@@ -373,26 +391,6 @@
       <category term="德拉維加" scheme="http://yoursite.com/tags/%E5%BE%B7%E6%8B%89%E7%B6%AD%E5%8A%A0/"/>
     
       <category term="既成事實現象" scheme="http://yoursite.com/tags/%E6%97%A2%E6%88%90%E4%BA%8B%E5%AF%A6%E7%8F%BE%E8%B1%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>德拉維加-二</title>
-    <link href="http://yoursite.com/2018/12/07/%E5%BE%B7%E6%8B%89%E7%B6%AD%E5%8A%A0-%E4%BA%8C/"/>
-    <id>http://yoursite.com/2018/12/07/德拉維加-二/</id>
-    <published>2018-12-07T11:07:30.000Z</published>
-    <updated>2018-12-08T05:13:34.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;股民:為了你不至於得出證券交易的動向是無法解釋的,而且一切全不確定這樣的結論,請注意並認識在證券交易中價格上升的三個原因和價格下跌的三個原因:印度狀況、歐洲政治和股市情。對於最後這個原因,消息本身常常幾乎沒有價值,因為對抗勢力可以朝相反方向運作。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="亂中之亂" scheme="http://yoursite.com/categories/%E4%BA%82%E4%B8%AD%E4%B9%8B%E4%BA%82/"/>
-    
-    
-      <category term="德拉維加" scheme="http://yoursite.com/tags/%E5%BE%B7%E6%8B%89%E7%B6%AD%E5%8A%A0/"/>
     
   </entry>
   
