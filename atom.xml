@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-25T21:09:58.291Z</updated>
+  <updated>2019-02-25T22:02:33.684Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TED、深度學習、量子疊加態與不確定性、工業革命</title>
+    <link href="http://yoursite.com/2019/02/26/TED%E3%80%81%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E3%80%81%E9%87%8F%E5%AD%90%E7%96%8A%E5%8A%A0%E6%85%8B%E8%88%87%E4%B8%8D%E7%A2%BA%E5%AE%9A%E6%80%A7%E3%80%81%E5%B7%A5%E6%A5%AD%E9%9D%A9%E5%91%BD/"/>
+    <id>http://yoursite.com/2019/02/26/TED、深度學習、量子疊加態與不確定性、工業革命/</id>
+    <published>2019-02-25T21:52:11.000Z</published>
+    <updated>2019-02-25T22:02:33.684Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot; https://www.ted.com/talks&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;TED&lt;/a&gt;&lt;br&gt;ai數據隱私的蒐集，&lt;br&gt;減少圖片用量：影像疊加。
+    
+    </summary>
+    
+    
+      <category term="TED" scheme="http://yoursite.com/tags/TED/"/>
+    
+      <category term="深度學習" scheme="http://yoursite.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92/"/>
+    
+      <category term="量子疊加態與不確定性" scheme="http://yoursite.com/tags/%E9%87%8F%E5%AD%90%E7%96%8A%E5%8A%A0%E6%85%8B%E8%88%87%E4%B8%8D%E7%A2%BA%E5%AE%9A%E6%80%A7/"/>
+    
+      <category term="工業革命" scheme="http://yoursite.com/tags/%E5%B7%A5%E6%A5%AD%E9%9D%A9%E5%91%BD/"/>
+    
+      <category term="黑暗網路市場與創新，所有的脊椎動物都是魚" scheme="http://yoursite.com/tags/%E9%BB%91%E6%9A%97%E7%B6%B2%E8%B7%AF%E5%B8%82%E5%A0%B4%E8%88%87%E5%89%B5%E6%96%B0%EF%BC%8C%E6%89%80%E6%9C%89%E7%9A%84%E8%84%8A%E6%A4%8E%E5%8B%95%E7%89%A9%E9%83%BD%E6%98%AF%E9%AD%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>胡椒價格下跌</title>
@@ -373,24 +399,6 @@
     
     
       <category term="經濟依舊向前飛速發展" scheme="http://yoursite.com/tags/%E7%B6%93%E6%BF%9F%E4%BE%9D%E8%88%8A%E5%90%91%E5%89%8D%E9%A3%9B%E9%80%9F%E7%99%BC%E5%B1%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>有用信息獲取方式:文字</title>
-    <link href="http://yoursite.com/2019/01/21/%E6%9C%89%E7%94%A8%E4%BF%A1%E6%81%AF%E7%8D%B2%E5%8F%96%E6%96%B9%E5%BC%8F-%E6%96%87%E5%AD%97/"/>
-    <id>http://yoursite.com/2019/01/21/有用信息獲取方式-文字/</id>
-    <published>2019-01-20T23:29:55.000Z</published>
-    <updated>2019-02-17T04:32:27.068Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;信息獲取方式文字、圖片、視頻等。但真正能夠思辯的卻也終究只有文字而已。不管文字怎樣表述、排列，在你閱讀時你的大腦就會進行思考。&lt;br&gt;而圖片、視頻且不論視覺上的欺騙造假，最致命的是它使人不自覺的失去了思考，
-    
-    </summary>
-    
-    
-      <category term="信息獲取方式:文字" scheme="http://yoursite.com/tags/%E4%BF%A1%E6%81%AF%E7%8D%B2%E5%8F%96%E6%96%B9%E5%BC%8F-%E6%96%87%E5%AD%97/"/>
     
   </entry>
   
