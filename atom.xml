@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-25T22:02:33.684Z</updated>
+  <updated>2019-03-02T22:39:40.376Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>特斯拉將關實體店,日本新創服務AI找出「好味道」</title>
+    <link href="http://yoursite.com/2019/03/03/%E7%89%B9%E6%96%AF%E6%8B%89%E5%B0%87%E9%97%9C%E5%AF%A6%E9%AB%94%E5%BA%97-%E6%97%A5%E6%9C%AC%E6%96%B0%E5%89%B5%E6%9C%8D%E5%8B%99AI%E6%89%BE%E5%87%BA%E3%80%8C%E5%A5%BD%E5%91%B3%E9%81%93%E3%80%8D/"/>
+    <id>http://yoursite.com/2019/03/03/特斯拉將關實體店-日本新創服務AI找出「好味道」/</id>
+    <published>2019-03-02T22:35:19.000Z</published>
+    <updated>2019-03-02T22:39:40.376Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;美國電動車製造商特斯拉一日宣布調降部分舊車款售價，並表示將關閉所有實體店面，未來將轉為網路銷售。&lt;br&gt;在日本，透過人工智慧（ＡＩ）進行味覺分析的新創服務日益普及。除了將甜度、酸度等化成可測數值，輔以大數據為基礎與民眾食用感想進行ＡＩ分析，找出科學化的「好味道」，
+    
+    </summary>
+    
+    
+      <category term="特斯拉將關實體店.日本新創服務AI找出「好味道」" scheme="http://yoursite.com/tags/%E7%89%B9%E6%96%AF%E6%8B%89%E5%B0%87%E9%97%9C%E5%AF%A6%E9%AB%94%E5%BA%97-%E6%97%A5%E6%9C%AC%E6%96%B0%E5%89%B5%E6%9C%8D%E5%8B%99AI%E6%89%BE%E5%87%BA%E3%80%8C%E5%A5%BD%E5%91%B3%E9%81%93%E3%80%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>TED、深度學習、量子疊加態與不確定性、工業革命</title>
@@ -381,24 +399,6 @@
     
     
       <category term="銀行-儲戶-企業家" scheme="http://yoursite.com/tags/%E9%8A%80%E8%A1%8C-%E5%84%B2%E6%88%B6-%E4%BC%81%E6%A5%AD%E5%AE%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>全球經濟增長放緩，和平依舊，經濟向前。</title>
-    <link href="http://yoursite.com/2019/01/22/%E5%85%A8%E7%90%83%E7%B6%93%E6%BF%9F%E5%A2%9E%E9%95%B7%E6%94%BE%E7%B7%A9%EF%BC%8C%E5%92%8C%E5%B9%B3%E4%BE%9D%E8%88%8A%EF%BC%8C%E7%B6%93%E6%BF%9F%E5%90%91%E5%89%8D%E3%80%82/"/>
-    <id>http://yoursite.com/2019/01/22/全球經濟增長放緩，和平依舊，經濟向前。/</id>
-    <published>2019-01-22T00:43:32.000Z</published>
-    <updated>2019-02-17T04:32:27.063Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;中國也進入，全球人口衰減時代。經濟的增長與發展依靠的是人，而全球人口衰減，未來的經濟增長放緩是必然的。但是經濟依然在增長，並沒有減緩的那麼可怕。相反，經濟增長依然很可觀。對經濟大幅放緩的擔憂只是未來的事，不太可能出現如此糟糕的情況。經濟依舊向前飛速發展，
-    
-    </summary>
-    
-    
-      <category term="經濟依舊向前飛速發展" scheme="http://yoursite.com/tags/%E7%B6%93%E6%BF%9F%E4%BE%9D%E8%88%8A%E5%90%91%E5%89%8D%E9%A3%9B%E9%80%9F%E7%99%BC%E5%B1%95/"/>
     
   </entry>
   
