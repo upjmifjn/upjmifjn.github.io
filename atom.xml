@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-07T23:56:10.705Z</updated>
+  <updated>2019-03-25T09:47:50.843Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,15 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>為什麼我們為爭取孤獨而奮鬥</title>
+    <link href="http://yoursite.com/2019/03/25/%E7%82%BA%E4%BB%80%E9%BA%BC%E6%88%91%E5%80%91%E7%82%BA%E7%88%AD%E5%8F%96%E5%AD%A4%E7%8D%A8%E8%80%8C%E5%A5%AE%E9%AC%A5/"/>
+    <id>http://yoursite.com/2019/03/25/為什麼我們為爭取孤獨而奮鬥/</id>
+    <published>2019-03-25T09:38:39.000Z</published>
+    <updated>2019-03-25T09:47:50.843Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;你你經常花些時間外出一小時步行？ 只是坐在大自然中除了沉思和享受沉默之外什麼都不做？&lt;/p&gt;
+&lt;p&gt;我相信你們中有一些人經常沉迷於這種奢侈品，但我們大多數人每天都沒有時間獨處。&lt;/p&gt;
+&lt;p&gt;對於一些人來說，這太奢侈了：日常生活的鬥爭太過接近生存水平甚至只考慮一個小時的自然。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="給自己沉思和虛無的空間" scheme="http://yoursite.com/tags/%E7%B5%A6%E8%87%AA%E5%B7%B1%E6%B2%89%E6%80%9D%E5%92%8C%E8%99%9B%E7%84%A1%E7%9A%84%E7%A9%BA%E9%96%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>對金錢的追求是經濟進步的動力</title>
     <link href="http://yoursite.com/2019/03/08/%E5%B0%8D%E9%87%91%E9%8C%A2%E7%9A%84%E8%BF%BD%E6%B1%82%E6%98%AF%E7%B6%93%E6%BF%9F%E9%80%B2%E6%AD%A5%E7%9A%84%E5%8B%95%E5%8A%9B/"/>
     <id>http://yoursite.com/2019/03/08/對金錢的追求是經濟進步的動力/</id>
     <published>2019-03-07T23:06:26.000Z</published>
-    <updated>2019-03-07T23:56:10.705Z</updated>
+    <updated>2019-03-25T09:39:24.210Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;對金錢的追求是經濟進步的動力。87年以來由科技網絡時代所引領的幾十年的瘋狂增長，正在失去動力，雖然未來是美好的，會是一個全新的真正的科技時代。但那將是一個漫長的過程，並不能向過去的網路科技一樣，像在中國的改革開放一夜之間即可席捲每一個角落，過去的科技網路亦是如此。&lt;br&gt;但如今中國亦不可避免的進入了“全球人口衰減時代”，經濟正在失去動力。雖然對金錢的追求依然熾熱，但那似乎只是極少數人的事。更多的人是看不到希望，邪惡的金融體系與制度更加限制了這種可能性，而他們似乎已經開始失去了耐心，無論是對個人或者世界。他們已不向以前那樣熱情的追逐金錢，而更願意去做一些其它的事情，就像軟體世界GitHUB開放源代碼的趨勢一樣，越來越多的軟體都進入了Linux的開源世界。&lt;br&gt;我想：人性的未來亦是如此，終將擺脫金錢的奴役！&lt;br&gt;經濟的發展將以全新的方式呈現在你我的眼前。&lt;br&gt;金錢奴役的世界你我都已看過，另一個世界會是怎樣的一幅畫面……&lt;br&gt;
+      &lt;p&gt;對金錢的追求是經濟進步的動力。87年以來由科技網絡時代所引領的幾十年的瘋狂增長，正在失去動力，雖然未來是美好的，會是一個全新的真正的科技時代。但那將是一個漫長的過程，並不能向過去的網路科技一樣，像在中國的改革開放一夜之間即可席捲每一個角落，過去的科技網路亦是如此。
     
     </summary>
     
@@ -383,24 +403,6 @@
     
     
       <category term="採購經理人指數（PMI）" scheme="http://yoursite.com/tags/%E6%8E%A1%E8%B3%BC%E7%B6%93%E7%90%86%E4%BA%BA%E6%8C%87%E6%95%B8%EF%BC%88PMI%EF%BC%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ECB重申今年夏季結束前不會升息</title>
-    <link href="http://yoursite.com/2019/01/24/ECB%E9%87%8D%E7%94%B3%E4%BB%8A%E5%B9%B4%E5%A4%8F%E5%AD%A3%E7%B5%90%E6%9D%9F%E5%89%8D%E4%B8%8D%E6%9C%83%E5%8D%87%E6%81%AF/"/>
-    <id>http://yoursite.com/2019/01/24/ECB重申今年夏季結束前不會升息/</id>
-    <published>2019-01-24T13:49:26.000Z</published>
-    <updated>2019-02-17T04:32:27.065Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;ECB重申今年夏季結束前不會升息 歐元溫和貶值&lt;br&gt;歐洲央行（ECB）執行委員會24日召開政策會議，決定維持各項利率不變，且保證今年夏季結束（8月底）之前不會提高利率。歐元兌美元盤中貶值約0.3%。
-    
-    </summary>
-    
-    
-      <category term="歐洲央行（ECB）" scheme="http://yoursite.com/tags/%E6%AD%90%E6%B4%B2%E5%A4%AE%E8%A1%8C%EF%BC%88ECB%EF%BC%89/"/>
     
   </entry>
   
