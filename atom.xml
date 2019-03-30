@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-25T09:47:50.843Z</updated>
+  <updated>2019-03-30T00:57:26.282Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Lyft每股72美元上市</title>
+    <link href="http://yoursite.com/2019/03/30/Lyft%E6%AF%8F%E8%82%A172%E7%BE%8E%E5%85%83%E4%B8%8A%E5%B8%82/"/>
+    <id>http://yoursite.com/2019/03/30/Lyft每股72美元上市/</id>
+    <published>2019-03-30T00:53:31.000Z</published>
+    <updated>2019-03-30T00:57:26.282Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2019-03-30 02:25經濟日報 編譯黃嘉洵／綜合外電&lt;br&gt;美國第二大叫車平台Lyft 29日以每股72美元風光上市，點燃投資人對今年首次公開發行（IPO）的熱情，也為Uber、Pinterest及Slack等即將上市的矽谷獨角獸公司捎來喜訊。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Lyft每股72美元上市" scheme="http://yoursite.com/tags/Lyft%E6%AF%8F%E8%82%A172%E7%BE%8E%E5%85%83%E4%B8%8A%E5%B8%82/"/>
+    
+  </entry>
   
   <entry>
     <title>為什麼我們為爭取孤獨而奮鬥</title>
@@ -384,25 +402,6 @@
     
     
       <category term="美中貿易戰，英國脫歐" scheme="http://yoursite.com/tags/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%EF%BC%8C%E8%8B%B1%E5%9C%8B%E8%84%AB%E6%AD%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>歐洲日本PMI利空</title>
-    <link href="http://yoursite.com/2019/01/25/%E6%AD%90%E6%B4%B2%E6%97%A5%E6%9C%AC%E6%8E%A1%E8%B3%BC%E7%B6%93%E7%90%86%E4%BA%BA%E6%8C%87%E6%95%B8%EF%BC%88PMI%EF%BC%89%E5%88%A9%E7%A9%BA/"/>
-    <id>http://yoursite.com/2019/01/25/歐洲日本採購經理人指數（PMI）利空/</id>
-    <published>2019-01-24T19:50:00.000Z</published>
-    <updated>2019-02-17T04:32:27.064Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最新採購經理人指數（PMI）顯示，歐元區1月企業景氣僅微幅擴張，日本製造業景氣則陷入停滯，出口訂單降幅為兩年半來最大，加深全球成長減速顧慮，也凸顯全球經濟正卡在均衡的低成長困局中。&lt;/p&gt;
-&lt;p&gt;IHS Markit公布，歐元區1月製造業與服務業綜合PMI初估降至50.7，雖仍高於象徵景氣榮枯線的50，
-    
-    </summary>
-    
-    
-      <category term="採購經理人指數（PMI）" scheme="http://yoursite.com/tags/%E6%8E%A1%E8%B3%BC%E7%B6%93%E7%90%86%E4%BA%BA%E6%8C%87%E6%95%B8%EF%BC%88PMI%EF%BC%89/"/>
     
   </entry>
   
