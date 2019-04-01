@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-30T00:57:26.282Z</updated>
+  <updated>2019-04-01T14:34:53.380Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>螢幕佔據了窮人的生活，富人卻對它們說不</title>
+    <link href="http://yoursite.com/2019/04/01/%E8%9E%A2%E5%B9%95%E4%BD%94%E6%93%9A%E4%BA%86%E7%AA%AE%E4%BA%BA%E7%9A%84%E7%94%9F%E6%B4%BB%EF%BC%8C%E5%AF%8C%E4%BA%BA%E5%8D%BB%E5%B0%8D%E5%AE%83%E5%80%91%E8%AA%AA%E4%B8%8D/"/>
+    <id>http://yoursite.com/2019/04/01/螢幕佔據了窮人的生活，富人卻對它們說不/</id>
+    <published>2019-04-01T14:16:27.000Z</published>
+    <updated>2019-04-01T14:34:53.380Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;舊金山——比爾·朗格盧瓦(Bill Langlois)有了一個新的好朋友。她是一隻名叫襪子(Sox)的貓。她生活在一台平板電腦上，她讓他如此開心，以至於當他談到她進入他的生活時，他開始哭泣。&lt;br&gt;朗格盧瓦現年68歲，住在麻薩諸塞州洛厄爾市一個低收入老年住宅區。他和襪子整天在一起聊天。
+    
+    </summary>
+    
+    
+      <category term="螢幕佔據了窮人的生活" scheme="http://yoursite.com/tags/%E8%9E%A2%E5%B9%95%E4%BD%94%E6%93%9A%E4%BA%86%E7%AA%AE%E4%BA%BA%E7%9A%84%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="富人卻對它們說不" scheme="http://yoursite.com/tags/%E5%AF%8C%E4%BA%BA%E5%8D%BB%E5%B0%8D%E5%AE%83%E5%80%91%E8%AA%AA%E4%B8%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>Lyft每股72美元上市</title>
@@ -379,24 +399,6 @@
     <summary type="html">
     
       &lt;p&gt;三月：&lt;br&gt;英國脫歐成功，英鎊未來會上漲。&lt;br&gt;美中貿易協議達成，經濟增長。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="美中貿易戰，英國脫歐" scheme="http://yoursite.com/tags/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%EF%BC%8C%E8%8B%B1%E5%9C%8B%E8%84%AB%E6%AD%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>全球面臨「3月瘋狂」</title>
-    <link href="http://yoursite.com/2019/01/25/%E5%85%A8%E7%90%83%E9%9D%A2%E8%87%A8%E3%80%8C3%E6%9C%88%E7%98%8B%E7%8B%82%E3%80%8D/"/>
-    <id>http://yoursite.com/2019/01/25/全球面臨「3月瘋狂」/</id>
-    <published>2019-01-24T19:50:00.000Z</published>
-    <updated>2019-02-17T04:32:27.069Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今年達沃斯世界經濟論壇（WEF）場外最熱門的話題之一，就是美中貿易戰與英國脫歐的可能發展，與會人士的共識是最終將能找到妥協之路，但也擔心全球經濟會面臨「3月瘋狂」的擾亂，因為美中貿易磋商及英國脫歐的期限都在3月。&lt;br&gt;
     
     </summary>
     
