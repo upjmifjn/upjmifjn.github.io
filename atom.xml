@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-01T14:34:53.380Z</updated>
+  <updated>2019-04-12T02:32:23.153Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>來福車Lyft_優步Uber_愛彼迎Airbnb_繽趣Pinterest</title>
+    <link href="http://yoursite.com/2019/04/12/%E4%BE%86%E7%A6%8F%E8%BB%8ALyft-%E5%84%AA%E6%AD%A5Uber-%E6%84%9B%E5%BD%BC%E8%BF%8EAirbnb-%E7%B9%BD%E8%B6%A3Pinterest/"/>
+    <id>http://yoursite.com/2019/04/12/來福車Lyft-優步Uber-愛彼迎Airbnb-繽趣Pinterest/</id>
+    <published>2019-04-12T02:23:01.000Z</published>
+    <updated>2019-04-12T02:32:23.153Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;來福車(Lyft)、優步(Uber)、愛彼迎(Airbnb)、繽趣(Pinterest)接連計劃上市。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="來福車(Lyft)" scheme="http://yoursite.com/tags/%E4%BE%86%E7%A6%8F%E8%BB%8A-Lyft/"/>
+    
+      <category term="優步(Uber)" scheme="http://yoursite.com/tags/%E5%84%AA%E6%AD%A5-Uber/"/>
+    
+      <category term="愛彼迎(Airbnb)" scheme="http://yoursite.com/tags/%E6%84%9B%E5%BD%BC%E8%BF%8E-Airbnb/"/>
+    
+      <category term="繽趣(Pinterest)" scheme="http://yoursite.com/tags/%E7%B9%BD%E8%B6%A3-Pinterest/"/>
+    
+  </entry>
   
   <entry>
     <title>螢幕佔據了窮人的生活，富人卻對它們說不</title>
@@ -386,24 +410,6 @@
     
     
       <category term="波羅的海乾散貨運價指數（BDI）" scheme="http://yoursite.com/tags/%E6%B3%A2%E7%BE%85%E7%9A%84%E6%B5%B7%E4%B9%BE%E6%95%A3%E8%B2%A8%E9%81%8B%E5%83%B9%E6%8C%87%E6%95%B8%EF%BC%88BDI%EF%BC%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>英國脫歐-美中貿易協議</title>
-    <link href="http://yoursite.com/2019/01/25/%E8%8B%B1%E5%9C%8B%E8%84%AB%E6%AD%90-%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E5%8D%94%E8%AD%B0/"/>
-    <id>http://yoursite.com/2019/01/25/英國脫歐-美中貿易協議/</id>
-    <published>2019-01-25T02:37:53.000Z</published>
-    <updated>2019-02-17T04:32:27.070Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;三月：&lt;br&gt;英國脫歐成功，英鎊未來會上漲。&lt;br&gt;美中貿易協議達成，經濟增長。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="美中貿易戰，英國脫歐" scheme="http://yoursite.com/tags/%E7%BE%8E%E4%B8%AD%E8%B2%BF%E6%98%93%E6%88%B0%EF%BC%8C%E8%8B%B1%E5%9C%8B%E8%84%AB%E6%AD%90/"/>
     
   </entry>
   
