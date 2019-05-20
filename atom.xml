@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-20T00:27:46.746Z</updated>
+  <updated>2019-04-15T05:36:12.674Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>測試</title>
-    <link href="http://yoursite.com/2019/05/20/%E6%B8%AC%E8%A9%A6/"/>
-    <id>http://yoursite.com/2019/05/20/測試/</id>
-    <published>2019-05-20T00:27:36.000Z</published>
-    <updated>2019-05-20T00:27:46.746Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;script type=&quot;text/javascript&quot; src=&quot;//rf.revolvermaps.com/0/0/6.js?i=53troqg2mpp&amp;amp;m=7&amp;amp;c=e63100&amp;amp;cr1=ffffff&amp;amp;f=arial&amp;amp;l=0&amp;amp
-      
-    
-    </summary>
-    
-    
-      <category term="測試" scheme="http://yoursite.com/tags/%E6%B8%AC%E8%A9%A6/"/>
-    
-  </entry>
   
   <entry>
     <title>offcloud離線下載遠程上傳</title>
@@ -415,6 +394,24 @@
     
     
       <category term="蘇聯和美國消除兩國中程和中短程飛彈條約" scheme="http://yoursite.com/tags/%E8%98%87%E8%81%AF%E5%92%8C%E7%BE%8E%E5%9C%8B%E6%B6%88%E9%99%A4%E5%85%A9%E5%9C%8B%E4%B8%AD%E7%A8%8B%E5%92%8C%E4%B8%AD%E7%9F%AD%E7%A8%8B%E9%A3%9B%E5%BD%88%E6%A2%9D%E7%B4%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>對於道瓊斯2018年10月以來，5000多點的下跌，以及之後快速的回升。</title>
+    <link href="http://yoursite.com/2019/02/03/%E5%B0%8D%E6%96%BC%E9%81%93%E7%93%8A%E6%96%AF2018%E5%B9%B410%E6%9C%88%E4%BB%A5%E4%BE%86%EF%BC%8C5000%E5%A4%9A%E9%BB%9E%E7%9A%84%E4%B8%8B%E8%B7%8C%EF%BC%8C%E4%BB%A5%E5%8F%8A%E4%B9%8B%E5%BE%8C%E5%BF%AB%E9%80%9F%E7%9A%84%E5%9B%9E%E5%8D%87%E3%80%82/"/>
+    <id>http://yoursite.com/2019/02/03/對於道瓊斯2018年10月以來，5000多點的下跌，以及之後快速的回升。/</id>
+    <published>2019-02-02T23:19:45.000Z</published>
+    <updated>2019-02-17T04:32:27.069Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;起因美中貿易戰，加深了對未來經濟成長的擔憂，和英國脫歐事件的發展。新聞媒體所發出的恐慌性經濟數據，才是最有意思的，至於是否別有用心，就不得而知了。即使現在依然充斥著對經濟增長減緩的擔憂，但明顯可以感覺的出來，與下跌之前相比已經輕鬆多了。
+    
+    </summary>
+    
+    
+      <category term="道瓊斯指數，2018年10月以來" scheme="http://yoursite.com/tags/%E9%81%93%E7%93%8A%E6%96%AF%E6%8C%87%E6%95%B8%EF%BC%8C2018%E5%B9%B410%E6%9C%88%E4%BB%A5%E4%BE%86/"/>
     
   </entry>
   
