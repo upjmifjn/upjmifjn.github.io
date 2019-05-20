@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-12T02:32:23.153Z</updated>
+  <updated>2019-04-15T05:36:12.674Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>offcloud離線下載遠程上傳</title>
+    <link href="http://yoursite.com/2019/04/15/offcloud%E9%9B%A2%E7%B7%9A%E4%B8%8B%E8%BC%89%E9%81%A0%E7%A8%8B%E4%B8%8A%E5%82%B3/"/>
+    <id>http://yoursite.com/2019/04/15/offcloud離線下載遠程上傳/</id>
+    <published>2019-04-14T20:53:36.000Z</published>
+    <updated>2019-04-15T05:36:12.674Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;offcloud：離線下載磁力、bt、網絡鏈接等。 &lt;a href=&quot;https://offcloud.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://offcloud.com/&lt;/a&gt;&lt;br&gt;遠程同步下載、上傳網盤內容（支援列表：&lt;a href=&quot;https://offcloud.com/list）&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://offcloud.com/list）&lt;/a&gt;&lt;br&gt;offcloud註冊後就是免費賬號，10G空間、限制3次/每月。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="offcloud離線下載" scheme="http://yoursite.com/tags/offcloud%E9%9B%A2%E7%B7%9A%E4%B8%8B%E8%BC%89/"/>
+    
+      <category term="遠程上傳" scheme="http://yoursite.com/tags/%E9%81%A0%E7%A8%8B%E4%B8%8A%E5%82%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>來福車Lyft_優步Uber_愛彼迎Airbnb_繽趣Pinterest</title>
@@ -392,24 +412,6 @@
     
     
       <category term="道瓊斯指數，2018年10月以來" scheme="http://yoursite.com/tags/%E9%81%93%E7%93%8A%E6%96%AF%E6%8C%87%E6%95%B8%EF%BC%8C2018%E5%B9%B410%E6%9C%88%E4%BB%A5%E4%BE%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>船運費率腰斬，警示經濟減速</title>
-    <link href="http://yoursite.com/2019/01/26/%E8%88%B9%E9%81%8B%E8%B2%BB%E7%8E%87%E8%85%B0%E6%96%AC%EF%BC%8C%E8%AD%A6%E7%A4%BA%E7%B6%93%E6%BF%9F%E6%B8%9B%E9%80%9F/"/>
-    <id>http://yoursite.com/2019/01/26/船運費率腰斬，警示經濟減速/</id>
-    <published>2019-01-25T18:48:00.000Z</published>
-    <updated>2019-02-17T04:32:27.066Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;BDI半年來大跌47%，顯示最近景氣大幅下滑，預示世界經濟面臨一波嚴重下沉。 （美聯社）&lt;br&gt;過去六個月來，載運全球原物料與成品的船運費率已腰斬，是全球經濟明顯放慢腳步的最新徵兆。&lt;br&gt;路透報導，波羅的海乾散貨運價指數（BDI），也就是用來衡量鐵礦砂、煤等原物料海運成本的指標，
-    
-    </summary>
-    
-    
-      <category term="波羅的海乾散貨運價指數（BDI）" scheme="http://yoursite.com/tags/%E6%B3%A2%E7%BE%85%E7%9A%84%E6%B5%B7%E4%B9%BE%E6%95%A3%E8%B2%A8%E9%81%8B%E5%83%B9%E6%8C%87%E6%95%B8%EF%BC%88BDI%EF%BC%89/"/>
     
   </entry>
   
