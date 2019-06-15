@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-15T23:04:03.816Z</updated>
+  <updated>2019-06-15T23:10:01.047Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="http://yoursite.com/2019/06/15/Public-DNS-Server-2019/"/>
     <id>http://yoursite.com/2019/06/15/Public-DNS-Server-2019/</id>
     <published>2019-06-15T07:25:52.000Z</published>
-    <updated>2019-06-15T23:04:03.816Z</updated>
+    <updated>2019-06-15T23:10:01.047Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;drive google&lt;/p&gt;
-
+      
+      
+        
 
 	&lt;div class=&quot;row&quot;&gt;
-		&lt;iframe src=&quot;https://drive.google.com/file/d/1oHXuiWrw7wJ1Wi10L4BEjpyO5FdPxEJN&quot; style=&quot;width:100%; height:550px&quot;&gt;&lt;/iframe&gt;
-	&lt;/div&gt;
+		&lt;iframe src=&quot;https://drive.google.com/file/d/1oHXuiWrw7wJ1Wi10L4BEjpyO5FdPxEJN/preview&quot; style=&quot;width:100%; height:550
+      
     
     </summary>
     
