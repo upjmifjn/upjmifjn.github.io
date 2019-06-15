@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-06-07T02:01:15.856Z</updated>
+  <updated>2019-06-15T22:52:36.599Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Public DNS Server 2019</title>
+    <link href="http://yoursite.com/2019/06/15/Public-DNS-Server-2019/"/>
+    <id>http://yoursite.com/2019/06/15/Public-DNS-Server-2019/</id>
+    <published>2019-06-15T07:25:52.000Z</published>
+    <updated>2019-06-15T22:52:36.599Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;drive google&lt;br&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;iframe src=&quot;https://drive.google.com/file/d/1oHXuiWrw7wJ1Wi10L4BEjpyO5FdPxEJN/view&quot; style=&quot;width:100%; height:550px&quot;&gt;&lt;/iframe&gt;
+	&lt;/div&gt;
+
+
+&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Public DNS Server 2019" scheme="http://yoursite.com/tags/Public-DNS-Server-2019/"/>
+    
+  </entry>
   
   <entry>
     <title>所有的一切都只是看錢在誰的手裡</title>
@@ -394,24 +419,6 @@
     
     
       <category term="零耗能住宅" scheme="http://yoursite.com/tags/%E9%9B%B6%E8%80%97%E8%83%BD%E4%BD%8F%E5%AE%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>輸人不輸陣？俄國跟進美國宣布退出中程核武條約</title>
-    <link href="http://yoursite.com/2019/02/03/%E8%BC%B8%E4%BA%BA%E4%B8%8D%E8%BC%B8%E9%99%A3%EF%BC%9F%E4%BF%84%E5%9C%8B%E8%B7%9F%E9%80%B2%E7%BE%8E%E5%9C%8B%E5%AE%A3%E5%B8%83%E9%80%80%E5%87%BA%E4%B8%AD%E7%A8%8B%E6%A0%B8%E6%AD%A6%E6%A2%9D%E7%B4%84/"/>
-    <id>http://yoursite.com/2019/02/03/輸人不輸陣？俄國跟進美國宣布退出中程核武條約/</id>
-    <published>2019-02-03T05:30:23.000Z</published>
-    <updated>2019-02-17T04:32:27.070Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2019-02-02 17:59聯合報 記者張佑生╱即時報導&lt;br&gt;繼美國國務院1日宣布，美國將於2日起暫停履行「中程核武條約」（INF）的義務，啟動退約程序後，俄國總統普亭2日也宣布暫停履約義務，原因是「美國夥伴」先暫停履約。
-    
-    </summary>
-    
-    
-      <category term="蘇聯和美國消除兩國中程和中短程飛彈條約" scheme="http://yoursite.com/tags/%E8%98%87%E8%81%AF%E5%92%8C%E7%BE%8E%E5%9C%8B%E6%B6%88%E9%99%A4%E5%85%A9%E5%9C%8B%E4%B8%AD%E7%A8%8B%E5%92%8C%E4%B8%AD%E7%9F%AD%E7%A8%8B%E9%A3%9B%E5%BD%88%E6%A2%9D%E7%B4%84/"/>
     
   </entry>
   
