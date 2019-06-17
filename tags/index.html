@@ -11,8 +11,10 @@
 
 
 
+  
 
-<html class="theme-next muse" lang="zh-TW">
+
+<html class="theme-next muse use-motion" lang="zh-TW">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,8 +32,6 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -44,6 +44,21 @@
 
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
 
 
 
@@ -51,45 +66,20 @@
 
 
 
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.6.0">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.6.0">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.6.0">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=6.6.0" color="#222">
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '6.6.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    version: '7.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
     fancybox: false,
     fastclick: false,
     lazyload: false,
     tabs: true,
-    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -121,12 +111,13 @@
 
 
 
-
+  
+  
   <link rel="canonical" href="http://yoursite.com/tags/">
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
@@ -145,30 +136,29 @@
 
 
 
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -186,7 +176,7 @@
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -200,6 +190,7 @@
       
         <p class="site-subtitle">溫暖的海洋思維——瞬間沈浸</p>
       
+    
     
   </div>
 
@@ -365,7 +356,9 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">標籤</h1>
+<h1 class="post-title" itemprop="name headline">標籤
+
+</h1>
 
 <div class="post-meta">
   
@@ -385,304 +378,306 @@
         
           <div class="tag-cloud">
             <div class="tag-cloud-title">
+              
+              
                 
-                
-                  
-                    
                   
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
                   
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
                   
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
                   
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
                   
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
                   
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
                   
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
                   
-                    
-                  
                 
-                  
-                    
-                  
+              
                 
-                  
-                    
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
+                
+              
                 
                   
-                    
+                
+              
+                
                   
                 
+              
+                
                   
-                    
+                
+              
+                
                   
                 
-                目前共有 73 個標籤
+              
+              目前共有 72 個標籤
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/5/" style="font-size: 12px; color: #ccc">5</a> <a href="/tags/700億人民幣逆回購/" style="font-size: 12px; color: #ccc">700億人民幣逆回購</a> <a href="/tags/AI、奈米科技，經濟過熱！/" style="font-size: 12px; color: #ccc">AI、奈米科技，經濟過熱！</a> <a href="/tags/CPTPP/" style="font-size: 21px; color: #6f6f6f">CPTPP</a> <a href="/tags/DuckDuckGo搜索技巧/" style="font-size: 12px; color: #ccc">DuckDuckGo搜索技巧</a> <a href="/tags/E-Ink元太科技/" style="font-size: 12px; color: #ccc">E Ink元太科技</a> <a href="/tags/LyftInc/" style="font-size: 12px; color: #ccc">LyftInc</a> <a href="/tags/Lyft每股72美元上市/" style="font-size: 12px; color: #ccc">Lyft每股72美元上市</a> <a href="/tags/Payless/" style="font-size: 12px; color: #ccc">Payless</a> <a href="/tags/Public-DNS-Server-2019/" style="font-size: 12px; color: #ccc">Public DNS Server 2019</a> <a href="/tags/TED/" style="font-size: 12px; color: #ccc">TED</a> <a href="/tags/Web-Poroxy-網頁代理伺服器/" style="font-size: 12px; color: #ccc">Web Poroxy 網頁代理伺服器</a> <a href="/tags/grub4dos/" style="font-size: 12px; color: #ccc">grub4dos</a> <a href="/tags/offcloud離線下載/" style="font-size: 12px; color: #ccc">offcloud離線下載</a> <a href="/tags/《混亂的宮殿》/" style="font-size: 12px; color: #ccc">《混亂的宮殿》</a> <a href="/tags/《跨太平洋夥伴全面進步協定》/" style="font-size: 12px; color: #ccc">《跨太平洋夥伴全面進步協定》</a> <a href="/tags/來福車-Lyft/" style="font-size: 12px; color: #ccc">來福車(Lyft)</a> <a href="/tags/信息獲取方式-文字/" style="font-size: 12px; color: #ccc">信息獲取方式:文字</a> <a href="/tags/債券/" style="font-size: 12px; color: #ccc">債券</a> <a href="/tags/優步/" style="font-size: 12px; color: #ccc">優步</a> <a href="/tags/優步-Uber/" style="font-size: 12px; color: #ccc">優步(Uber)</a> <a href="/tags/全球人口衰減時代/" style="font-size: 12px; color: #ccc">全球人口衰減時代</a> <a href="/tags/公開市場操作/" style="font-size: 12px; color: #ccc">公開市場操作</a> <a href="/tags/凱利公式/" style="font-size: 12px; color: #ccc">凱利公式</a> <a href="/tags/向市場投放資金/" style="font-size: 12px; color: #ccc">向市場投放資金</a> <a href="/tags/啟動引導/" style="font-size: 12px; color: #ccc">啟動引導</a> <a href="/tags/喜鵲爲何要築巢/" style="font-size: 12px; color: #ccc">喜鵲爲何要築巢</a> <a href="/tags/國際貨幣基金（IMF/" style="font-size: 12px; color: #ccc">國際貨幣基金（IMF)</a> <a href="/tags/大投機家/" style="font-size: 12px; color: #ccc">大投機家</a> <a href="/tags/存款準備金/" style="font-size: 12px; color: #ccc">存款準備金</a> <a href="/tags/富人卻對它們說不/" style="font-size: 12px; color: #ccc">富人卻對它們說不</a> <a href="/tags/富爸爸與窮爸爸，現金流，沒有負債的現金流？/" style="font-size: 12px; color: #ccc">富爸爸與窮爸爸，現金流，沒有負債的現金流？</a> <a href="/tags/尋找金錢/" style="font-size: 12px; color: #ccc">尋找金錢</a> <a href="/tags/工業革命/" style="font-size: 12px; color: #ccc">工業革命</a> <a href="/tags/工業革命，工廠系統，/" style="font-size: 12px; color: #ccc">工業革命，工廠系統，</a> <a href="/tags/市場/" style="font-size: 12px; color: #ccc">市場</a> <a href="/tags/德拉維加/" style="font-size: 30px; color: #111">德拉維加</a> <a href="/tags/愛彼迎-Airbnb/" style="font-size: 12px; color: #ccc">愛彼迎(Airbnb)</a> <a href="/tags/投資者，投機者/" style="font-size: 12px; color: #ccc">投資者，投機者</a> <a href="/tags/採購經理人指數（PMI）/" style="font-size: 12px; color: #ccc">採購經理人指數（PMI）</a> <a href="/tags/數字時代，現金/" style="font-size: 12px; color: #ccc">數字時代，現金</a> <a href="/tags/既成事實現象/" style="font-size: 12px; color: #ccc">既成事實現象</a> <a href="/tags/日本新創服務AI找出「好味道」/" style="font-size: 12px; color: #ccc">日本新創服務AI找出「好味道」</a> <a href="/tags/未來行業主導，外匯統治，機會/" style="font-size: 12px; color: #ccc">未來行業主導，外匯統治，機會</a> <a href="/tags/東南亞/" style="font-size: 12px; color: #ccc">東南亞</a> <a href="/tags/歐洲央行（ECB）/" style="font-size: 12px; color: #ccc">歐洲央行（ECB）</a> <a href="/tags/波羅的海乾散貨運價指數（BDI）/" style="font-size: 12px; color: #ccc">波羅的海乾散貨運價指數（BDI）</a> <a href="/tags/深度學習/" style="font-size: 12px; color: #ccc">深度學習</a> <a href="/tags/準備在2019年上市/" style="font-size: 12px; color: #ccc">準備在2019年上市</a> <a href="/tags/澳洲央行/" style="font-size: 12px; color: #ccc">澳洲央行</a> <a href="/tags/特斯拉政策逆轉將保留更多門店但部分車型將漲價/" style="font-size: 12px; color: #ccc">特斯拉政策逆轉將保留更多門店但部分車型將漲價</a> <a href="/tags/禁用觸摸屏/" style="font-size: 12px; color: #ccc">禁用觸摸屏</a> <a href="/tags/給自己沉思和虛無的空間/" style="font-size: 12px; color: #ccc">給自己沉思和虛無的空間</a> <a href="/tags/經濟依舊向前飛速發展/" style="font-size: 12px; color: #ccc">經濟依舊向前飛速發展</a> <a href="/tags/經濟風暴/" style="font-size: 12px; color: #ccc">經濟風暴</a> <a href="/tags/繽趣-Pinterest/" style="font-size: 12px; color: #ccc">繽趣(Pinterest)</a> <a href="/tags/美中貿易戰進展/" style="font-size: 12px; color: #ccc">美中貿易戰進展</a> <a href="/tags/美中貿易戰，英國脫歐/" style="font-size: 21px; color: #6f6f6f">美中貿易戰，英國脫歐</a> <a href="/tags/美國連鎖鞋店/" style="font-size: 12px; color: #ccc">美國連鎖鞋店</a> <a href="/tags/胡椒價格下跌/" style="font-size: 12px; color: #ccc">胡椒價格下跌</a> <a href="/tags/蘇聯和美國消除兩國中程和中短程飛彈條約/" style="font-size: 12px; color: #ccc">蘇聯和美國消除兩國中程和中短程飛彈條約</a> <a href="/tags/螢幕佔據了窮人的生活/" style="font-size: 12px; color: #ccc">螢幕佔據了窮人的生活</a> <a href="/tags/貨幣因素負面，聯準會利率，正確預測當下經濟、政治和社會發展的動向，現金流/" style="font-size: 12px; color: #ccc">貨幣因素負面，聯準會利率，正確預測當下經濟、政治和社會發展的動向，現金流</a> <a href="/tags/貸款-股市的競爭對手/" style="font-size: 12px; color: #ccc">貸款:股市的競爭對手</a> <a href="/tags/道瓊斯指數，2018年10月以來/" style="font-size: 12px; color: #ccc">道瓊斯指數，2018年10月以來</a> <a href="/tags/遠程上傳/" style="font-size: 12px; color: #ccc">遠程上傳</a> <a href="/tags/量子疊加態與不確定性/" style="font-size: 12px; color: #ccc">量子疊加態與不確定性</a> <a href="/tags/量子疊加態，不確定性/" style="font-size: 12px; color: #ccc">量子疊加態，不確定性</a> <a href="/tags/銀行-儲戶-企業家/" style="font-size: 12px; color: #ccc">銀行-儲戶-企業家</a> <a href="/tags/零耗能住宅/" style="font-size: 12px; color: #ccc">零耗能住宅</a> <a href="/tags/電子紙/" style="font-size: 12px; color: #ccc">電子紙</a> <a href="/tags/黑暗網路市場與創新，所有的脊椎動物都是魚/" style="font-size: 12px; color: #ccc">黑暗網路市場與創新，所有的脊椎動物都是魚</a> <a href="/tags/鼠標亂點/" style="font-size: 12px; color: #ccc">鼠標亂點</a>
+              
+                <a href="/tags/5700億人民幣逆回購/" style="font-size: 12px; color: #ccc">5700億人民幣逆回購</a> <a href="/tags/AI、奈米科技，經濟過熱！/" style="font-size: 12px; color: #ccc">AI、奈米科技，經濟過熱！</a> <a href="/tags/CPTPP/" style="font-size: 21px; color: #6f6f6f">CPTPP</a> <a href="/tags/DuckDuckGo搜索技巧/" style="font-size: 12px; color: #ccc">DuckDuckGo搜索技巧</a> <a href="/tags/E-Ink元太科技/" style="font-size: 12px; color: #ccc">E Ink元太科技</a> <a href="/tags/LyftInc/" style="font-size: 12px; color: #ccc">LyftInc</a> <a href="/tags/Lyft每股72美元上市/" style="font-size: 12px; color: #ccc">Lyft每股72美元上市</a> <a href="/tags/Payless/" style="font-size: 12px; color: #ccc">Payless</a> <a href="/tags/Public-DNS-Server-2019/" style="font-size: 12px; color: #ccc">Public DNS Server 2019</a> <a href="/tags/TED/" style="font-size: 12px; color: #ccc">TED</a> <a href="/tags/Web-Poroxy-網頁代理伺服器/" style="font-size: 12px; color: #ccc">Web Poroxy 網頁代理伺服器</a> <a href="/tags/grub4dos/" style="font-size: 12px; color: #ccc">grub4dos</a> <a href="/tags/offcloud離線下載/" style="font-size: 12px; color: #ccc">offcloud離線下載</a> <a href="/tags/《混亂的宮殿》/" style="font-size: 12px; color: #ccc">《混亂的宮殿》</a> <a href="/tags/《跨太平洋夥伴全面進步協定》/" style="font-size: 12px; color: #ccc">《跨太平洋夥伴全面進步協定》</a> <a href="/tags/來福車-Lyft/" style="font-size: 12px; color: #ccc">來福車(Lyft)</a> <a href="/tags/信息獲取方式-文字/" style="font-size: 12px; color: #ccc">信息獲取方式:文字</a> <a href="/tags/債券/" style="font-size: 12px; color: #ccc">債券</a> <a href="/tags/優步/" style="font-size: 12px; color: #ccc">優步</a> <a href="/tags/優步-Uber/" style="font-size: 12px; color: #ccc">優步(Uber)</a> <a href="/tags/全球人口衰減時代/" style="font-size: 12px; color: #ccc">全球人口衰減時代</a> <a href="/tags/公開市場操作/" style="font-size: 12px; color: #ccc">公開市場操作</a> <a href="/tags/凱利公式/" style="font-size: 12px; color: #ccc">凱利公式</a> <a href="/tags/向市場投放資金/" style="font-size: 12px; color: #ccc">向市場投放資金</a> <a href="/tags/啟動引導/" style="font-size: 12px; color: #ccc">啟動引導</a> <a href="/tags/喜鵲爲何要築巢/" style="font-size: 12px; color: #ccc">喜鵲爲何要築巢</a> <a href="/tags/國際貨幣基金（IMF/" style="font-size: 12px; color: #ccc">國際貨幣基金（IMF)</a> <a href="/tags/大投機家/" style="font-size: 12px; color: #ccc">大投機家</a> <a href="/tags/存款準備金/" style="font-size: 12px; color: #ccc">存款準備金</a> <a href="/tags/富人卻對它們說不/" style="font-size: 12px; color: #ccc">富人卻對它們說不</a> <a href="/tags/富爸爸與窮爸爸，現金流，沒有負債的現金流？/" style="font-size: 12px; color: #ccc">富爸爸與窮爸爸，現金流，沒有負債的現金流？</a> <a href="/tags/尋找金錢/" style="font-size: 12px; color: #ccc">尋找金錢</a> <a href="/tags/工業革命/" style="font-size: 12px; color: #ccc">工業革命</a> <a href="/tags/工業革命，工廠系統，/" style="font-size: 12px; color: #ccc">工業革命，工廠系統，</a> <a href="/tags/市場/" style="font-size: 12px; color: #ccc">市場</a> <a href="/tags/德拉維加/" style="font-size: 30px; color: #111">德拉維加</a> <a href="/tags/愛彼迎-Airbnb/" style="font-size: 12px; color: #ccc">愛彼迎(Airbnb)</a> <a href="/tags/投資者，投機者/" style="font-size: 12px; color: #ccc">投資者，投機者</a> <a href="/tags/採購經理人指數（PMI）/" style="font-size: 12px; color: #ccc">採購經理人指數（PMI）</a> <a href="/tags/數字時代，現金/" style="font-size: 12px; color: #ccc">數字時代，現金</a> <a href="/tags/既成事實現象/" style="font-size: 12px; color: #ccc">既成事實現象</a> <a href="/tags/日本新創服務AI找出「好味道」/" style="font-size: 12px; color: #ccc">日本新創服務AI找出「好味道」</a> <a href="/tags/未來行業主導，外匯統治，機會/" style="font-size: 12px; color: #ccc">未來行業主導，外匯統治，機會</a> <a href="/tags/東南亞/" style="font-size: 12px; color: #ccc">東南亞</a> <a href="/tags/歐洲央行（ECB）/" style="font-size: 12px; color: #ccc">歐洲央行（ECB）</a> <a href="/tags/波羅的海乾散貨運價指數（BDI）/" style="font-size: 12px; color: #ccc">波羅的海乾散貨運價指數（BDI）</a> <a href="/tags/深度學習/" style="font-size: 12px; color: #ccc">深度學習</a> <a href="/tags/準備在2019年上市/" style="font-size: 12px; color: #ccc">準備在2019年上市</a> <a href="/tags/澳洲央行/" style="font-size: 12px; color: #ccc">澳洲央行</a> <a href="/tags/特斯拉政策逆轉將保留更多門店但部分車型將漲價/" style="font-size: 12px; color: #ccc">特斯拉政策逆轉將保留更多門店但部分車型將漲價</a> <a href="/tags/禁用觸摸屏/" style="font-size: 12px; color: #ccc">禁用觸摸屏</a> <a href="/tags/給自己沉思和虛無的空間/" style="font-size: 12px; color: #ccc">給自己沉思和虛無的空間</a> <a href="/tags/經濟依舊向前飛速發展/" style="font-size: 12px; color: #ccc">經濟依舊向前飛速發展</a> <a href="/tags/經濟風暴/" style="font-size: 12px; color: #ccc">經濟風暴</a> <a href="/tags/繽趣-Pinterest/" style="font-size: 12px; color: #ccc">繽趣(Pinterest)</a> <a href="/tags/美中貿易戰進展/" style="font-size: 12px; color: #ccc">美中貿易戰進展</a> <a href="/tags/美中貿易戰，英國脫歐/" style="font-size: 21px; color: #6f6f6f">美中貿易戰，英國脫歐</a> <a href="/tags/美國連鎖鞋店/" style="font-size: 12px; color: #ccc">美國連鎖鞋店</a> <a href="/tags/胡椒價格下跌/" style="font-size: 12px; color: #ccc">胡椒價格下跌</a> <a href="/tags/蘇聯和美國消除兩國中程和中短程飛彈條約/" style="font-size: 12px; color: #ccc">蘇聯和美國消除兩國中程和中短程飛彈條約</a> <a href="/tags/螢幕佔據了窮人的生活/" style="font-size: 12px; color: #ccc">螢幕佔據了窮人的生活</a> <a href="/tags/貨幣因素負面，聯準會利率，正確預測當下經濟、政治和社會發展的動向，現金流/" style="font-size: 12px; color: #ccc">貨幣因素負面，聯準會利率，正確預測當下經濟、政治和社會發展的動向，現金流</a> <a href="/tags/貸款-股市的競爭對手/" style="font-size: 12px; color: #ccc">貸款:股市的競爭對手</a> <a href="/tags/道瓊斯指數，2018年10月以來/" style="font-size: 12px; color: #ccc">道瓊斯指數，2018年10月以來</a> <a href="/tags/遠程上傳/" style="font-size: 12px; color: #ccc">遠程上傳</a> <a href="/tags/量子疊加態與不確定性/" style="font-size: 12px; color: #ccc">量子疊加態與不確定性</a> <a href="/tags/量子疊加態，不確定性/" style="font-size: 12px; color: #ccc">量子疊加態，不確定性</a> <a href="/tags/銀行-儲戶-企業家/" style="font-size: 12px; color: #ccc">銀行-儲戶-企業家</a> <a href="/tags/零耗能住宅/" style="font-size: 12px; color: #ccc">零耗能住宅</a> <a href="/tags/電子紙/" style="font-size: 12px; color: #ccc">電子紙</a> <a href="/tags/黑暗網路市場與創新，所有的脊椎動物都是魚/" style="font-size: 12px; color: #ccc">黑暗網路市場與創新，所有的脊椎動物都是魚</a> <a href="/tags/鼠標亂點/" style="font-size: 12px; color: #ccc">鼠標亂點</a>
+              
             </div>
           </div>
         
@@ -717,21 +712,20 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="投機者">
             
               <p class="site-author-name" itemprop="name">投機者</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <div class="site-description motion-element" itemprop="description"></div>
           </div>
 
           
@@ -751,7 +745,11 @@
                 
                 
                 <div class="site-state-item site-state-categories">
-                  <a href="/categories/index.html">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
                     
                     
                       
@@ -776,9 +774,15 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
                     
+                      <a href="/tags/">
                     
+                  
+                    
+                    
+                      
+                    
                       
                     
                       
@@ -925,7 +929,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">73</span>
+                    <span class="site-state-item-count">72</span>
                     <span class="site-state-item-name">標籤</span>
                   </a>
                 </div>
@@ -940,6 +944,8 @@
                 RSS
               </a>
             </div>
+          
+
           
 
           
@@ -973,6 +979,7 @@
           
              <div class="cc-license motion-element" itemprop="license">
               
+              
                 
               
               
@@ -988,8 +995,9 @@
             
           
           
+
         </div>
-      </section>
+      </div>
 
       
 
@@ -997,6 +1005,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -1045,7 +1054,7 @@
     
 
     
-	
+
     
 
     
@@ -1053,7 +1062,7 @@
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -1085,63 +1094,55 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.6.0"></script>
+  <script src="/js/utils.js?v=7.1.2"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.6.0"></script>
+  <script src="/js/motion.js?v=7.1.2"></script>
 
 
 
   
   
 
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.6.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.6.0"></script>
+
+  <script src="/js/schemes/muse.js?v=7.1.2"></script>
 
 
 
   
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.6.0"></script>
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
 
 
 
   
 
 
+  <script src="/js/next-boot.js?v=7.1.2"></script>
+
+
+  
+
+  
+
+  
 
   
 
 
 
-
-
-
-
-
-
-
   
-
 
 
 
@@ -1157,6 +1158,9 @@
   
 
   
+
+  
+
   
 
   

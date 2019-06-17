@@ -11,8 +11,10 @@
 
 
 
+  
 
-<html class="theme-next muse" lang="zh-TW">
+
+<html class="theme-next muse use-motion" lang="zh-TW">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,8 +32,6 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -44,6 +44,21 @@
 
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
 
 
 
@@ -51,45 +66,20 @@
 
 
 
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.6.0">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.6.0">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.6.0">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=6.6.0" color="#222">
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '6.6.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    version: '7.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
     fancybox: false,
     fastclick: false,
     lazyload: false,
     tabs: true,
-    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -120,12 +110,13 @@
 
 
 
-
+  
+  
   <link rel="canonical" href="http://yoursite.com/page/5/">
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
@@ -144,30 +135,29 @@
 
 
 
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -186,7 +176,7 @@
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -200,6 +190,7 @@
       
         <p class="site-subtitle">溫暖的海洋思維——瞬間沈浸</p>
       
+    
     
   </div>
 
@@ -372,7 +363,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/23/正確預測當下經濟、政治和社會發展的動向/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">正確預測當下經濟、政治和社會發展的動向</a>
+                <a href="/2018/12/23/正確預測當下經濟、政治和社會發展的動向/" class="post-title-link" itemprop="url">正確預測當下經濟、政治和社會發展的動向</a>
               
             
           </h1>
@@ -423,6 +414,7 @@
 
           
             
+            
           
 
           
@@ -456,7 +448,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -471,7 +463,7 @@
     
 
     
-       
+      
     
     
 
@@ -532,7 +524,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/22/數字時代最終會取代貨幣嗎/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">數字時代最終會取代貨幣嗎</a>
+                <a href="/2018/12/22/數字時代最終會取代貨幣嗎/" class="post-title-link" itemprop="url">數字時代最終會取代貨幣嗎</a>
               
             
           </h1>
@@ -583,6 +575,7 @@
 
           
             
+            
           
 
           
@@ -616,7 +609,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -631,7 +624,7 @@
     
 
     
-       
+      
     
     
 
@@ -692,7 +685,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/17/公開市場操作/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">公開市場操作</a>
+                <a href="/2018/12/17/公開市場操作/" class="post-title-link" itemprop="url">公開市場操作</a>
               
             
           </h1>
@@ -743,6 +736,7 @@
 
           
             
+            
           
 
           
@@ -776,7 +770,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -791,7 +785,7 @@
     
 
     
-       
+      
     
     
 
@@ -852,7 +846,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/15/未來引領經濟騰飛的將是什麼呢/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">機會與未來引領經濟騰飛的將是什麼呢</a>
+                <a href="/2018/12/15/未來引領經濟騰飛的將是什麼呢/" class="post-title-link" itemprop="url">機會與未來引領經濟騰飛的將是什麼呢</a>
               
             
           </h1>
@@ -903,6 +897,7 @@
 
           
             
+            
           
 
           
@@ -936,7 +931,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -951,7 +946,7 @@
     
 
     
-       
+      
     
     
 
@@ -1012,7 +1007,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/14/負能量/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">負能量</a>
+                <a href="/2018/12/14/負能量/" class="post-title-link" itemprop="url">負能量</a>
               
             
           </h1>
@@ -1063,6 +1058,7 @@
 
           
             
+            
           
 
           
@@ -1096,7 +1092,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -1111,7 +1107,7 @@
     
 
     
-       
+      
     
     
 
@@ -1172,7 +1168,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/08/《混亂的宮殿》/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">《混亂的宮殿》</a>
+                <a href="/2018/12/08/《混亂的宮殿》/" class="post-title-link" itemprop="url">《混亂的宮殿》</a>
               
             
           </h1>
@@ -1241,6 +1237,7 @@
 
           
             
+            
           
 
           
@@ -1274,7 +1271,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -1289,7 +1286,7 @@
     
 
     
-       
+      
     
     
 
@@ -1350,7 +1347,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/08/德拉維加-三-做多與做空/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">德拉維加-三-做多與做空</a>
+                <a href="/2018/12/08/德拉維加-三-做多與做空/" class="post-title-link" itemprop="url">德拉維加-三-做多與做空</a>
               
             
           </h1>
@@ -1419,6 +1416,7 @@
 
           
             
+            
           
 
           
@@ -1452,7 +1450,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -1467,7 +1465,7 @@
     
 
     
-       
+      
     
     
 
@@ -1528,7 +1526,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/07/德拉維加-二/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">德拉維加-二</a>
+                <a href="/2018/12/07/德拉維加-二/" class="post-title-link" itemprop="url">德拉維加-二</a>
               
             
           </h1>
@@ -1597,6 +1595,7 @@
 
           
             
+            
           
 
           
@@ -1630,7 +1629,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -1645,7 +1644,7 @@
     
 
     
-       
+      
     
     
 
@@ -1706,7 +1705,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/06/德拉維加/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">德拉維加</a>
+                <a href="/2018/12/06/德拉維加/" class="post-title-link" itemprop="url">德拉維加</a>
               
             
           </h1>
@@ -1775,6 +1774,7 @@
 
           
             
+            
           
 
           
@@ -1808,7 +1808,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -1823,7 +1823,7 @@
     
 
     
-       
+      
     
     
 
@@ -1884,7 +1884,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2018/12/05/貸款-股市的競爭對手/" class="post-title-link" itemprop="http://yoursite.com/page/5/index.html">貸款:股市的競爭對手</a>
+                <a href="/2018/12/05/貸款-股市的競爭對手/" class="post-title-link" itemprop="url">貸款:股市的競爭對手</a>
               
             
           </h1>
@@ -1953,6 +1953,7 @@
 
           
             
+            
           
 
           
@@ -1986,7 +1987,7 @@
                 閱讀全文 &raquo;
               </a>
             </div>
-         
+          
           <!--/noindex-->
         
       
@@ -2001,7 +2002,7 @@
     
 
     
-       
+      
     
     
 
@@ -2052,21 +2053,20 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="投機者">
             
               <p class="site-author-name" itemprop="name">投機者</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <div class="site-description motion-element" itemprop="description"></div>
           </div>
 
           
@@ -2086,7 +2086,11 @@
                 
                 
                 <div class="site-state-item site-state-categories">
-                  <a href="/categories/index.html">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
                     
                     
                       
@@ -2111,9 +2115,15 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
                     
+                      <a href="/tags/">
                     
+                  
+                    
+                    
+                      
+                    
                       
                     
                       
@@ -2260,7 +2270,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">73</span>
+                    <span class="site-state-item-count">72</span>
                     <span class="site-state-item-name">標籤</span>
                   </a>
                 </div>
@@ -2275,6 +2285,8 @@
                 RSS
               </a>
             </div>
+          
+
           
 
           
@@ -2308,6 +2320,7 @@
           
              <div class="cc-license motion-element" itemprop="license">
               
+              
                 
               
               
@@ -2323,8 +2336,9 @@
             
           
           
+
         </div>
-      </section>
+      </div>
 
       
 
@@ -2332,6 +2346,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -2380,7 +2395,7 @@
     
 
     
-	
+
     
 
     
@@ -2388,7 +2403,7 @@
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -2420,59 +2435,51 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.6.0"></script>
+  <script src="/js/utils.js?v=7.1.2"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.6.0"></script>
+  <script src="/js/motion.js?v=7.1.2"></script>
 
 
 
   
   
 
-  
 
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.6.0"></script>
+  <script src="/js/schemes/muse.js?v=7.1.2"></script>
 
 
 
   
 
+  
 
+
+  <script src="/js/next-boot.js?v=7.1.2"></script>
+
+
+  
+
+  
+
+  
 
   
 
 
 
-
-
-
-
-
-
-
   
-
 
 
 
@@ -2488,6 +2495,9 @@
   
 
   
+
+  
+
   
 
   
