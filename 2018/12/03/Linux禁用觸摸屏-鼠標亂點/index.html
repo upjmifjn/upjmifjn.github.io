@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入">
+  <meta name="description" content="1.安裝輸入設備列表查看xinput 1$ sudo apt-get install xinput  2.終端輸入">
 <meta name="keywords" content="禁用觸摸屏,鼠標亂點">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux禁用觸摸屏-鼠標亂點">
 <meta property="og:url" content="http://yoursite.com/2018/12/03/Linux禁用觸摸屏-鼠標亂點/index.html">
 <meta property="og:site_name" content="此心不動隨機而動">
-<meta property="og:description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入">
+<meta property="og:description" content="1.安裝輸入設備列表查看xinput 1$ sudo apt-get install xinput  2.終端輸入">
 <meta property="og:locale" content="zh-TW">
 <meta property="og:updated_time" content="2019-02-17T04:32:27.081Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Linux禁用觸摸屏-鼠標亂點">
-<meta name="twitter:description" content="1.安裝輸入設備列表查看xinput1$ sudo apt-get install xinput 2.終端輸入">
+<meta name="twitter:description" content="1.安裝輸入設備列表查看xinput 1$ sudo apt-get install xinput  2.終端輸入">
 
 
 
@@ -459,13 +459,26 @@
       
 
       
-        <p>1.安裝輸入設備列表查看xinput<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install xinput</span><br></pre></td></tr></table></figure></p>
-<p>2.終端輸入<a id="more"></a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ xinput</span><br><span class="line">或</span><br><span class="line">$ xinput list</span><br></pre></td></tr></table></figure></p>
-<p>在列出的輸入設備列表中查找觸摸屏對應的名稱Atmel Atmel maXTouch Digitizer和id 12(註意：id每次插入新的硬件例如鼠標鍵盤等，可能會導致id號發生變化)<br>3.設置觸摸屏的enabled屬性為0，禁用觸摸屏<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ xinput <span class="built_in">set</span>-prop 12 <span class="string">'Device Enabled'</span> 0</span><br><span class="line">或</span><br><span class="line">$ xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 0</span><br></pre></td></tr></table></figure></p>
-<p>4.查看觸摸屏屬性列表<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ xinput list-props 12</span><br></pre></td></tr></table></figure></p>
-<p>5.重啓後會恢復默認屬性，所以用腳本/添加開機自啓來禁用觸摸屏比較好。<br>腳本:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo sh Touchscreen.sh off <span class="comment">#註意後面的參數</span></span><br></pre></td></tr></table></figure></p>
+        <p>1.安裝輸入設備列表查看xinput</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install xinput</span><br></pre></td></tr></table></figure>
+
+<p>2.終端輸入<a id="more"></a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ xinput</span><br><span class="line">或</span><br><span class="line">$ xinput list</span><br></pre></td></tr></table></figure>
+
+<p>在列出的輸入設備列表中查找觸摸屏對應的名稱Atmel Atmel maXTouch Digitizer和id 12(註意：id每次插入新的硬件例如鼠標鍵盤等，可能會導致id號發生變化)<br>3.設置觸摸屏的enabled屬性為0，禁用觸摸屏</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ xinput <span class="built_in">set</span>-prop 12 <span class="string">'Device Enabled'</span> 0</span><br><span class="line">或</span><br><span class="line">$ xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 0</span><br></pre></td></tr></table></figure>
+
+<p>4.查看觸摸屏屬性列表</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ xinput list-props 12</span><br></pre></td></tr></table></figure>
+
+<p>5.重啓後會恢復默認屬性，所以用腳本/添加開機自啓來禁用觸摸屏比較好。<br>腳本:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo sh Touchscreen.sh off <span class="comment">#註意後面的參數</span></span><br></pre></td></tr></table></figure>
+
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$1</span> = <span class="string">'on'</span> ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">     xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 1</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"觸摸屏開啓成功！"</span></span><br><span class="line"><span class="keyword">elif</span> [ <span class="variable">$1</span> = <span class="string">'off'</span> ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">    xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 0</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"觸摸屏關閉成功！"</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"請輸入參數：on/off"</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"開啓觸摸屏：TouchDigitizerEnabled on"</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">"禁用觸摸屏：TouchDigitizerEnabled off"</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
-<p>開機自動禁用觸摸屏:<br>在~/.config/autostart/下創建一個啟動器xinput.desktop文件，內容如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[Desktop Entry]</span><br><span class="line">Type=Application</span><br><span class="line">Exec=xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 0</span><br><span class="line">Hidden=<span class="literal">false</span></span><br><span class="line">NoDisplay=<span class="literal">false</span></span><br><span class="line">X-GNOME-Autostart-enabled=<span class="literal">true</span></span><br><span class="line">Name[zh_TW]=touch digitizer <span class="built_in">enable</span></span><br><span class="line">Name=touch digitizer <span class="built_in">enable</span></span><br><span class="line">Comment[zh_TW]=禁用觸摸屏</span><br><span class="line">Comment=禁用觸摸屏</span><br></pre></td></tr></table></figure></p>
+
+<p>開機自動禁用觸摸屏:<br>在~/.config/autostart/下創建一個啟動器xinput.desktop文件，內容如下</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[Desktop Entry]</span><br><span class="line">Type=Application</span><br><span class="line">Exec=xinput <span class="built_in">set</span>-prop <span class="string">'Atmel Atmel maXTouch Digitizer'</span> <span class="string">'Device Enabled'</span> 0</span><br><span class="line">Hidden=<span class="literal">false</span></span><br><span class="line">NoDisplay=<span class="literal">false</span></span><br><span class="line">X-GNOME-Autostart-enabled=<span class="literal">true</span></span><br><span class="line">Name[zh_TW]=touch digitizer <span class="built_in">enable</span></span><br><span class="line">Name=touch digitizer <span class="built_in">enable</span></span><br><span class="line">Comment[zh_TW]=禁用觸摸屏</span><br><span class="line">Comment=禁用觸摸屏</span><br></pre></td></tr></table></figure>
+
 <p>直接刪除mxt-app触摸控制器<br>（MaXTouch设备的命令行实用程序<br>mxt-app是管理Atmel maXTouch触摸控制器和其他实用程序<br>支持基于Atmel对象的协议的设备。）</p>
 
       
@@ -599,7 +612,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">53</span>
+                    <span class="site-state-item-count">54</span>
                     <span class="site-state-item-name">文章</span>
                   </a>
                 </div>
@@ -791,9 +804,7 @@
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">72</span>
+                    <span class="site-state-item-count">73</span>
                     <span class="site-state-item-name">標籤</span>
                   </a>
                 </div>
