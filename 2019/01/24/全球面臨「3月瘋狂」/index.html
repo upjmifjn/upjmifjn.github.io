@@ -11,8 +11,10 @@
 
 
 
+  
 
-<html class="theme-next muse" lang="zh-TW">
+
+<html class="theme-next muse use-motion" lang="zh-TW">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,8 +32,6 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -44,6 +44,21 @@
 
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
 
 
 
@@ -51,45 +66,20 @@
 
 
 
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.6.0">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.6.0">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.6.0">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=6.6.0" color="#222">
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '6.6.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    version: '7.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
     fancybox: false,
     fastclick: false,
     lazyload: false,
     tabs: true,
-    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -111,32 +101,33 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="全球面臨「3月瘋狂」">
 <meta property="og:url" content="http://yoursite.com/2019/01/24/全球面臨「3月瘋狂」/index.html">
-<meta property="og:site_name" content="投機者">
+<meta property="og:site_name" content="此心不動隨機而動">
 <meta property="og:description" content="今年達沃斯世界經濟論壇（WEF）場外最熱門的話題之一，就是美中貿易戰與英國脫歐的可能發展，與會人士的共識是最終將能找到妥協之路，但也擔心全球經濟會面臨「3月瘋狂」的擾亂，因為美中貿易磋商及英國脫歐的期限都在3月。">
 <meta property="og:locale" content="zh-TW">
-<meta property="og:updated_time" content="2019-01-24T23:11:24.337Z">
+<meta property="og:updated_time" content="2019-02-17T04:32:27.069Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="全球面臨「3月瘋狂」">
 <meta name="twitter:description" content="今年達沃斯世界經濟論壇（WEF）場外最熱門的話題之一，就是美中貿易戰與英國脫歐的可能發展，與會人士的共識是最終將能找到妥協之路，但也擔心全球經濟會面臨「3月瘋狂」的擾亂，因為美中貿易磋商及英國脫歐的期限都在3月。">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="投機者" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="此心不動隨機而動" type="application/atom+xml">
 
 
 
-
+  
+  
   <link rel="canonical" href="http://yoursite.com/2019/01/24/全球面臨「3月瘋狂」/">
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
 </script>
 
-  <title>全球面臨「3月瘋狂」 | 投機者</title>
+  <title>全球面臨「3月瘋狂」 | 此心不動隨機而動</title>
   
 
 
@@ -149,30 +140,29 @@
 
 
 
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -190,13 +180,13 @@
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">投機者</span>
+        <span class="site-title">此心不動隨機而動</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -204,6 +194,7 @@
       
         <p class="site-subtitle">溫暖的海洋思維——瞬間沈浸</p>
       
+    
     
   </div>
 
@@ -365,7 +356,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="投機者">
+      <meta itemprop="name" content="此心不動隨機而動">
     </span>
 
     
@@ -374,6 +365,7 @@
         
         
           <h1 class="post-title" itemprop="name headline">全球面臨「3月瘋狂」
+
               
             
           </h1>
@@ -398,12 +390,24 @@
                 
               
 
-              <time title="創建時間：2019-01-24 19:50:00 / 修改時間：23:11:24" itemprop="dateCreated datePublished" datetime="2019-01-24T19:50:00+00:00">2019-01-24</time>
+              <time title="創建時間：2019-01-24 14:50:00" itemprop="dateCreated datePublished" datetime="2019-01-24T14:50:00-05:00">2019-01-24</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新於</span>
+                
+                <time title="修改時間：2019-02-16 23:32:27" itemprop="dateModified" datetime="2019-02-16T23:32:27-05:00">2019-02-16</time>
               
             
           </span>
@@ -411,6 +415,7 @@
           
 
           
+            
             
           
 
@@ -436,7 +441,9 @@
       
 
       
-        <p>今年達沃斯世界經濟論壇（WEF）場外最熱門的話題之一，就是美中貿易戰與英國脫歐的可能發展，與會人士的共識是最終將能找到妥協之路，但也擔心全球經濟會面臨「3月瘋狂」的擾亂，因為美中貿易磋商及英國脫歐的期限都在3月。<br><a id="more"></a><br>美國總統川普以3月1日為美中貿易磋商的期限，屆時若未能達成協議，美國對2,000億美元中國產品所加徵的懲罰性關稅稅率，將從10%提高到25%。與會的各界名流都擔心保護主義升高，使全球經濟陷入衰退。</p>
+        <p>今年達沃斯世界經濟論壇（WEF）場外最熱門的話題之一，就是美中貿易戰與英國脫歐的可能發展，與會人士的共識是最終將能找到妥協之路，但也擔心全球經濟會面臨「3月瘋狂」的擾亂，因為美中貿易磋商及英國脫歐的期限都在3月。</p>
+<a id="more"></a>
+<p>美國總統川普以3月1日為美中貿易磋商的期限，屆時若未能達成協議，美國對2,000億美元中國產品所加徵的懲罰性關稅稅率，將從10%提高到25%。與會的各界名流都擔心保護主義升高，使全球經濟陷入衰退。</p>
 <p>美國國務卿龐培歐透過視訊，表示美中將能達成貿易協議，但前提是中國不僅須接受「公平貿易」，還須有「自由與開放之海」及「民主原則」；果真如此，結果可能是「還有得等」。</p>
 <p>許多與會人士的核心疑問，在於川普政府是否堅持中國須對產業政策及智慧財產領域做出重大變革，若這是美國的底線，與會人士認為中國不會在3月1日前讓步。業界的期望是川普或許能接受中國一些枝節的讓步，包括中國承諾擴大採購美國產品，取消報復性關稅，換取美國將關稅凍結在10%。</p>
 
@@ -452,13 +459,14 @@
     
 
     
-       
+      
     
     
 
     
       <div>
         
+
 
 
 
@@ -508,7 +516,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/01/25/英國脫歐-美中貿易協議/" rel="prev" title="英國脫歐-美中貿易協議">
+              <a href="/2019/01/24/英國脫歐-美中貿易協議/" rel="prev" title="英國脫歐-美中貿易協議">
                 英國脫歐-美中貿易協議 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -549,21 +557,20 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="投機者">
             
               <p class="site-author-name" itemprop="name">投機者</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <div class="site-description motion-element" itemprop="description"></div>
           </div>
 
           
@@ -573,7 +580,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">39</span>
+                    <span class="site-state-item-count">54</span>
                     <span class="site-state-item-name">文章</span>
                   </a>
                 </div>
@@ -583,7 +590,11 @@
                 
                 
                 <div class="site-state-item site-state-categories">
-                  <a href="/categories/index.html">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
                     
                     
                       
@@ -608,7 +619,11 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
                     
                     
                       
@@ -699,7 +714,65 @@
                     
                       
                     
-                    <span class="site-state-item-count">44</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">73</span>
                     <span class="site-state-item-name">標籤</span>
                   </a>
                 </div>
@@ -714,6 +787,8 @@
                 RSS
               </a>
             </div>
+          
+
           
 
           
@@ -747,6 +822,7 @@
           
              <div class="cc-license motion-element" itemprop="license">
               
+              
                 
               
               
@@ -762,8 +838,9 @@
             
           
           
+
         </div>
-      </section>
+      </div>
 
       
 
@@ -771,6 +848,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -819,7 +897,7 @@
     
 
     
-	
+
     
 
     
@@ -827,7 +905,7 @@
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -859,63 +937,57 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.6.0"></script>
+  <script src="/js/utils.js?v=7.1.2"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.6.0"></script>
+  <script src="/js/motion.js?v=7.1.2"></script>
 
 
 
   
   
 
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.6.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.6.0"></script>
+
+  <script src="/js/schemes/muse.js?v=7.1.2"></script>
 
 
 
   
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.6.0"></script>
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
 
 
 
   
 
 
-
-  
-
-
-
-
-
-
-
-
+  <script src="/js/next-boot.js?v=7.1.2"></script>
 
 
   
 
+  
+
+  
+
+  
+
+
+  
+
+
+  
 
 
 
@@ -931,6 +1003,9 @@
   
 
   
+
+  
+
   
 
   

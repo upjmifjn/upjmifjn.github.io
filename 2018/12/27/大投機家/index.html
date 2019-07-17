@@ -11,8 +11,10 @@
 
 
 
+  
 
-<html class="theme-next muse" lang="zh-TW">
+
+<html class="theme-next muse use-motion" lang="zh-TW">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,8 +32,6 @@
 
 
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
 
 
 
@@ -44,6 +44,21 @@
 
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
 
 
 
@@ -51,45 +66,20 @@
 
 
 
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=6.6.0" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.6.0">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.6.0">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.6.0">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=6.6.0" color="#222">
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '6.6.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    version: '7.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
     fancybox: false,
     fastclick: false,
     lazyload: false,
     tabs: true,
-    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -111,32 +101,33 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="大投機家">
 <meta property="og:url" content="http://yoursite.com/2018/12/27/大投機家/index.html">
-<meta property="og:site_name" content="投機者">
+<meta property="og:site_name" content="此心不動隨機而動">
 <meta property="og:description" content="簡而言之，我會隨著經濟政治形勢的變動在各種情況下投機。經濟繁榮與蕭條期、通貨膨脹與通貨緊縮、貨幣升值與貶值我都經歷過。自1924年開始，我沒有一夜不在關注交易所的變動。明天會怎樣，我也不知道，但我知道昨天和今天的事。這已經不簡單了。">
 <meta property="og:locale" content="zh-TW">
-<meta property="og:updated_time" content="2018-12-31T23:05:31.000Z">
+<meta property="og:updated_time" content="2019-02-17T04:32:27.074Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="大投機家">
 <meta name="twitter:description" content="簡而言之，我會隨著經濟政治形勢的變動在各種情況下投機。經濟繁榮與蕭條期、通貨膨脹與通貨緊縮、貨幣升值與貶值我都經歷過。自1924年開始，我沒有一夜不在關注交易所的變動。明天會怎樣，我也不知道，但我知道昨天和今天的事。這已經不簡單了。">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="投機者" type="application/atom+xml">
+  <link rel="alternate" href="/atom.xml" title="此心不動隨機而動" type="application/atom+xml">
 
 
 
-
+  
+  
   <link rel="canonical" href="http://yoursite.com/2018/12/27/大投機家/">
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
 </script>
 
-  <title>大投機家 | 投機者</title>
+  <title>大投機家 | 此心不動隨機而動</title>
   
 
 
@@ -149,30 +140,29 @@
 
 
 
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -190,13 +180,13 @@
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">投機者</span>
+        <span class="site-title">此心不動隨機而動</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -204,6 +194,7 @@
       
         <p class="site-subtitle">溫暖的海洋思維——瞬間沈浸</p>
       
+    
     
   </div>
 
@@ -365,7 +356,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="投機者">
+      <meta itemprop="name" content="此心不動隨機而動">
     </span>
 
     
@@ -374,6 +365,7 @@
         
         
           <h1 class="post-title" itemprop="name headline">大投機家
+
               
             
           </h1>
@@ -398,7 +390,7 @@
                 
               
 
-              <time title="創建時間：2018-12-27 22:38:49" itemprop="dateCreated datePublished" datetime="2018-12-27T22:38:49+00:00">2018-12-27</time>
+              <time title="創建時間：2018-12-27 17:38:49" itemprop="dateCreated datePublished" datetime="2018-12-27T17:38:49-05:00">2018-12-27</time>
             
 
             
@@ -415,7 +407,7 @@
                 
                   <span class="post-meta-item-text">更新於</span>
                 
-                <time title="修改時間：2018-12-31 23:05:31" itemprop="dateModified" datetime="2018-12-31T23:05:31+00:00">2018-12-31</time>
+                <time title="修改時間：2019-02-16 23:32:27" itemprop="dateModified" datetime="2019-02-16T23:32:27-05:00">2019-02-16</time>
               
             
           </span>
@@ -423,6 +415,7 @@
           
 
           
+            
             
           
 
@@ -475,8 +468,7 @@
 <p>即使交易所並不是由魔鬼創造的，魔鬼仍然施加了影響，就像他從「現代人」中創造出了「投機人」一樣。這些人常常把交易所當成遊戲廳，因此對於許多人來說，交易所是沒有音樂的蒙特卡洛，是一個賭場，在那興奮、刺激的氣氛中，人們可以一夜之間揮霍掉大筆金錢。對於我來說，交易所是伴有美妙音樂的蒙特卡洛，但你必須擁有天線，才能接收到它的音樂並辨識出它的旋律。<br>然而，交易所的意義遠不只這些，它是神經中樞，是的，甚至是資本主義經濟體系的發動機。</p>
 <pre><code>但最終的發動機還是股票交易所。股票交易所的基礎是股份公司，證券股票投機是發動機的燃料。沒有證券股票投機的話，一些大型的革命性工業（鐵路、汽車、石油、電子、計算機和現在的因特網）都不會發展起來。只有對股票交易贏利的期望才能刺激大額和小額的儲蓄者從口袋裡掏出的是用於擴張所必需的錢，而不是對儲蓄利息收入的期望。這些儲蓄者然後通過各種不同的投資途徑進入經濟的各個領域。用一句話來說，交易所是一個工具，可以凍結投資，也可以在投資者重新需要其資本時隨時解凍投資。如果人們不能確信他們的投資可以隨時兌換成金錢的話，那麼也就不會有這麼多的投資者、投機者——更談不上賭博者——投入到股票中了。所以，交易所投資滿足了一個十分重要的功能。即使交易所投機者因為考慮到投機利潤才進行投機，他仍然可以將他的資本作用於經濟中，經濟增長、工作研究和社會進步可能迫切需要這些資本。
 一個企業主基本上有兩種方法來籌集研究、擴張和投資所需要的資金。一種方式是通過銀行負債，另一種方式是發行債券或將其企業的一部分以股票的形式賣出，這兩種選擇都各有優劣。如果企業主的幻想萌發，要自己負債，那麼他就不必和其他的股東分攤利潤，也不必因為企業的決策和別人激烈爭執。他只需歸還銀行的貸款和按其利潤衡量極為可笑的一點利息。然而如果他的生意並不如料想的那般如意，利潤遲遲不按計劃到來，那麼企業主就會很快陷入巨大的危機。如果銀行索要貸款或對新的貸款要求額外的保證，而這些保證又是企業主無法提供的，那麼他獲得偉大的企業主地位的夢想就要像肥皂泡一樣破滅了，雖然他的想法也許是正確的。他將要在很長的時間內，也許是一生的時間，一點點地償還他的債務。
-與此相反，如果企業主發行債券，那他就不必償還利息，也沒有義務將企業的資本償還給股東。股東只要求以股息的形式分享企業的利潤。如果他購買股票的企業繁榮了，那股東的利潤也是相當可觀的。這種獲得利潤的機會，特別是通過交易所過高估價而導致價格上漲的機會刺激著股東來購買股票，他寧願冒這個風險也不願意坐享銀行那點微薄的利息。
-</code></pre><p>因為經濟史上的巨大進步起初都是充滿風險的冒險經歷，過去和現在歷來如此，所以單憑貸款是決不會有這麼迅速的發展的。企業主們也許並不願意背負這麼高的負債，但首先的問題是，銀行絕對不能像期望在短期內發財的股東一樣，提供出同樣多的可使用資金。我們只需觀察一下，在這些日子裡那些年輕的互聯網企業通過交易所使多少資金流向了自己。而通過貸款獲得這些資金完全是無法想像的。</p>
+與此相反，如果企業主發行債券，那他就不必償還利息，也沒有義務將企業的資本償還給股東。股東只要求以股息的形式分享企業的利潤。如果他購買股票的企業繁榮了，那股東的利潤也是相當可觀的。這種獲得利潤的機會，特別是通過交易所過高估價而導致價格上漲的機會刺激著股東來購買股票，他寧願冒這個風險也不願意坐享銀行那點微薄的利息。</code></pre><p>因為經濟史上的巨大進步起初都是充滿風險的冒險經歷，過去和現在歷來如此，所以單憑貸款是決不會有這麼迅速的發展的。企業主們也許並不願意背負這麼高的負債，但首先的問題是，銀行絕對不能像期望在短期內發財的股東一樣，提供出同樣多的可使用資金。我們只需觀察一下，在這些日子裡那些年輕的互聯網企業通過交易所使多少資金流向了自己。而通過貸款獲得這些資金完全是無法想像的。</p>
 <p>雖然我不相信這些互聯網公司的股東最後都會成為贏家（在當前的迴光返照裡有許多市場牌價——像1688年的東印度公司一樣——已經失去了土地擔保。另外有許多牌價被高高地炒作起來），但是這就是交易所。</p>
 <p>交易所還有更多的意義。它是所有參與交易者——經紀人、商人、期票發行人、賭徒、投資者、大額和小額的儲蓄者、銀行家和金融家、記者和偶爾參與的旁觀者的遊戲場所。當然並不是所有的人都親自到交易所來。大多數人只是把他們的錢投入交易，偶爾他們也會把錢重新撤回。他們的行為中表達出了他們的懼怕和他們的希望。交易所不只是一個有價證券、外匯和商品的中轉站，它還是一個信息、消息和闢謠的中轉站，是謠言、熱切的忠告、內部信息和流言飛語的中轉站。<br>大多數情況下，我去交易所是因為在那裡所能夠遇到的傻瓜比其他任何地方都要多。並不是我在傻瓜身上能發現什麼樂子，而是為了做與傻瓜們的行為恰恰相反的事情。<br>    令人遺憾的是，舊式的交易所正慢慢地消失殆盡。交易所一個接一個的成為電腦交易所。1986年倫敦交易所即成為電腦交易所，這之後不久是巴黎交易所，在法蘭克福大多數的交易也是通過電腦系統完成的。所以，到所有交易所之母華爾街也由無聲的電腦屏幕構成，只不過是個時間的問題罷了。同時消逝的還有曾經的敏銳嗅覺，謠言發源地的氣味，這種氣味是以前人們在每個交易所都可以嗅到的。我還曾看到過把證券行情寫在石板上的交易所。我開玩笑地稱自己為一個滅亡的交易所世界的最後一人，但我不進交易所卻已經有幾年了。因為我擔心如果上帝俯瞰地球並且把目光投向交易所，他會發現我，那麼他會說：「什麼？那個老科斯托還在那裡？他應該到我這裡來了，我這裡正需要他。他的老朋友們都在聚餐桌上等他，他的位置還空著。」</p>
 <p>世界歷史的鏡子<br>    如果你對交易所具有一種激情，那麼你就能在交易所裡發現世界歷史的鏡像。我承認，這是一面變形的鏡子，只有有豐富經驗的投機者才能夠完全理解它的鏡像。一切的一切，來自中東或是科索沃的戰爭消息，巴勒斯坦人和以色列人之間的友誼和沖突，美國總統和實習生之間的緋聞，德國政府的變換以及財政部長的倒台，通訊技術和互聯網的飛速發展，女性服裝的革命，對肺癌的研究還有其他，所有這些事件以及與這些事件相關聯的緊張或是希望，即是世界歷史，而它在交易所裡得到了反映。如果你能夠讀懂這面鏡子，你就能夠享受到極大的優先特權。雖然這面鏡子不能預測明日之事，但它知道並理解今天和昨天，這已經夠多了，因為大多數人連這一點都不能知曉。</p>
@@ -486,8 +478,7 @@
 <p>和平是最重要的<br>人們總是問我，為什麼在過去的幾年裡一直那麼樂觀。許多人都聽到過我關於「安眠藥」的建議。我從來沒有那樣不加限制地鼓勵所有的儲蓄者把錢都投到股票市場上去。不過，他們應事先服用足夠的安眠藥，安安穩穩地睡個好覺，這樣他們就看不見也聽不到這期間股市的波動，也就不會在害怕出現熊市的恐慌中把股票一股腦兒地拋售出去了。<br>造成我樂觀的原因其實很簡單：儘管科索沃、海灣和庫爾德戰爭進行得相當慘烈，但從總體上說，世界範圍內的和平仍然達到了1982年以來的最高水平。就在10年前，我每天早上都從7點開始就戰戰兢兢地坐在收音機旁，生怕聽到什麼地方又開始出現緊張局勢，有可能成為第三次世界大戰的導火索。兩大權力聯盟——北約和華約之間的冷戰使得世界陷入了癱瘓。今天，這已成為過去。現在，我早上10點打開收音機，聽到的也並不令我特別感興趣。除「克勞迪亞․西弗爾並沒有嫁給大衛․科波菲爾」之類的事以外，還有什麼算是大事呢？這個時代是一個美國人的時代，無論歐洲人是否喜歡，美國都是唯一的超級大國。因此，長時間的和平成為了可能。這為股票市場在全世界大開綠燈，同時，這也是近年來經濟飛速發展的原因之一。<br>根據我80年股票市場的經驗，我也看到了相反的一面。兩次世界大戰和冷戰我都親身經歷過。<br>    只要什麼地方瀰漫著火藥味，投資者就不願意把錢投到那裡的股票市場上去。每個人都希望他們的財產，比如黃金留在自己的寶庫裡。因為，如果出現戰爭，貨幣就會完全貶值，就像是德國兩次被打敗的戰爭以及法國作為戰勝國所經歷的那樣。當德軍兵臨巴黎城下時，人們只好收拾細軟趕緊逃命，就像我在1941年一樣。在這種局勢下，什麼也幫不了股票市場。股票在人們臨時避難的國家裡根本就賣不出去，人們只好在戰亂國就把它們賣掉——由於外匯情況惡劣，在避亂國人們根本就不喜歡外國貨幣。又或者人們購買股票的那些工廠可能在戰爭中被夷為平地或是被政府收歸國有，就像匈牙利戰後我父親所在的燒酒廠一樣。兩種情況的結果是一樣的人們失去了他們的投資。在這種情況下只有一種國際通用的貨幣有用，要麼是一個未曾捲入戰爭的國家的貨幣，要麼就是黃金。<br>局勢越不穩定，投資者就越不敢投資於股票，反之亦然。目前，股票戰勝了戰爭，所以許多東西非常穩定。在下一個10年，我想我仍會保持樂觀。</p>
 <p>長期的經濟發展<br>    現在我想再次回到我前面舉過的「狗與人」的例子上。它可以理解成：經濟和股票並非是齊頭並進的。但是正如那個年輕人和他的狗一樣，經濟和股市從長期來看是向著一個方向發展的。股價不會持續上升，即使經濟增長，企業贏利增長時也是這樣。如果沒有隱含的基本條件，通用汽車、IBM或微軟的股票也不會是今天的樣子。否則的話——就拿這個形象的例子來說——狗越跑越遠，遲早它會再也看不到主人的。懂狗的人都知道，這位「四條腿的朋友」什麼時候會跑回來。<br>    股市也是如此。日本就是個好例子。有二十多年，股票的走勢超過了經濟的基礎數據和企業的贏利情況。雖然後兩者也在不斷增長，但它們實在跟不上股票上漲的速度。1990年，這條狗發現自己跑得太遠了。這時，出乎所有人的預料，股市猛然下跌，出現了巨大的「熊市」，即使今天，日經指數仍然遠低於最高水平的一半。<br>    也就是說，股市不能長時間地與經濟脫鉤。因此，投資者必須仔細觀察和分析一個國家的經濟狀況。在全球化盛行的今天，則要觀察和分析世界經濟。但是要注意，不是指過去的發展，而是未來的發展，如果經濟不受阻礙可以自由發展的話，股票市場從長期來看——儘管有各種波動也會上漲。其結果就是股價上升的情況比下跌的情況更為頻繁地出現，這極大地增加了投資者賺大錢的機會。由於這個原因，近年來有許多投機商都賺了錢。即便當股價是穩步提高時，人們也可能因為短期的風險運作碰上股市向上或向下的波動，所以他們根本就無法炫耀。相當肯定的是，絕大部分賭徒的表現會越來越差，如果他們把最初買入的股票長期握在手裡的話。<br>    我相信，從基本上說，經濟是會發展的，因為發展的動力就是人們對一種更高的生活水平的追求。如果富人們變得懶惰、心滿意足的話，也會有其他人想要青雲直上，整日擔心自己如何向上爬的。這就是世界的運動規律。<br>    但有時也會有阻礙，就像給人們的追求穿上緊身衣一樣，阻止它繼續滋長。<br>    如果投資者發現了這種阻礙或是為將來感到擔心時，他就要好好考慮一下是否要進行更大規模的股票投資了。從長期來看，在任何情況下都可能出現一種「邊向發展」。他必須非常靈敏地作出反應，留心觀察其間發生的波動，從而決定自己下一步的行動。</p>
 <p>一種對經濟增長可能造成阻礙的是一種出現偏差的稅收政策，它可能會對任何成功進行懲罰。就像在瑞典，如果人民必須上繳他們90%的收入的話，在任何時候都不會再有人有興趣去經營企業、去投資、去僅僅為了國家而每天工作14個小時。同樣地，法規條例、批准程序和對經濟過度的控制都可能阻礙經濟的發展。但在大多數情況下這些情況只是出現在某些社會團體、某些部門內部。</p>
-<pre><code>多年以來，基因技術在德國被說成像魔鬼一樣，因此，今天幾乎所有的這一類企業都落後於美國。可是最大的弊病就是無法計量的資金問題。人們可以用一句話把這種情況加以解釋，就像那位出生於匈牙利的吉卜賽音樂家所說的那樣：金錢有時就像音樂一樣。
-</code></pre><p>誰能夠理解這句話的真正含義，他就會比任何經過訓練的經濟學家更瞭解經濟。沒有錢，經濟是不可能發展起來的。<br>    幾十年以來，一種建立在金錢基礎上的貨幣體系，即所謂的「金本位制度」，阻礙著足夠的資金積累。在這段時間內，世界經濟總體說來發展遲緩。我經常寫關於這種金本位制度的文章，對其進行猛烈的抨擊。因為，除了世界和平之外，這種金本位制度的取消是我在過去的多年中——以及對未來——抱樂觀態度的第二個原因。可是，因為總有這樣的政治家或經濟學家，他們只要一看到外匯波動就吵嚷著要恢復過去的那種金本位制度。所以，我想再解釋一下，那是一種什麼制度，為什麼它對經濟如此有害。我總把這種金本位制度看做「胡鬧」。我也常拿「您怎樣看待金本位制度」這個問題來作為考驗經濟學家和專業人士的經濟知識的試金石。</p>
+<pre><code>多年以來，基因技術在德國被說成像魔鬼一樣，因此，今天幾乎所有的這一類企業都落後於美國。可是最大的弊病就是無法計量的資金問題。人們可以用一句話把這種情況加以解釋，就像那位出生於匈牙利的吉卜賽音樂家所說的那樣：金錢有時就像音樂一樣。</code></pre><p>誰能夠理解這句話的真正含義，他就會比任何經過訓練的經濟學家更瞭解經濟。沒有錢，經濟是不可能發展起來的。<br>    幾十年以來，一種建立在金錢基礎上的貨幣體系，即所謂的「金本位制度」，阻礙著足夠的資金積累。在這段時間內，世界經濟總體說來發展遲緩。我經常寫關於這種金本位制度的文章，對其進行猛烈的抨擊。因為，除了世界和平之外，這種金本位制度的取消是我在過去的多年中——以及對未來——抱樂觀態度的第二個原因。可是，因為總有這樣的政治家或經濟學家，他們只要一看到外匯波動就吵嚷著要恢復過去的那種金本位制度。所以，我想再解釋一下，那是一種什麼制度，為什麼它對經濟如此有害。我總把這種金本位制度看做「胡鬧」。我也常拿「您怎樣看待金本位制度」這個問題來作為考驗經濟學家和專業人士的經濟知識的試金石。</p>
 <p>第二次世界大戰以來，金本位制度就不起作用了，要讓它解決我們這個時代的大問題，那可是強人所難了。其失效的原因正在於人們接受了這樣一個在實際上完全錯誤的事實。這個制度的擁護者認為，一種貨幣的數量取決於那些由保護者，也就是發行銀行藏在地下室裡的黃金儲備。這完全是胡說八道。一種貨幣的強與弱，第一由這個國家的經濟實力決定，第二由國家財政的管理情況而定。就好像一個健康有力的肌體不會因為一點點感冒著涼就禁受不住，而一個體弱多病的人即使經過精心的醫療照顧也不能變成一個完全健康的人一樣。黃金會流入工作勤奮、道德情操高尚的人所在的國家裡。如果惡行也能獲勝的話，那麼即使全世界的黃金儲備加起來也不夠拯救貨幣。<br>我們今天的經濟制度需要好的發行銀行家，他們是金融市場的指揮者，而不是什麼金本位制度。艾倫․格林斯潘，美聯儲發行銀行的主席，就是一位傑出的指揮家。當經濟中缺少貨幣時，他就提供貨幣；當流通中的貨幣過多時，他就減少貨幣總量。就像《聖經》裡寫的那樣：「上帝給予，上帝索取。</p>
 <p>===========================<br>（「穩定，穩定，還是穩定」：即廢除了金本位制度後，為了維持所謂的穩定，推行通貨緊縮政策。目標與金本位制度時期一樣，維持零通貨膨脹。金錢與物品的價值都在下降，人們什麼也不願義買，因為明天可能會更便宜；企業也不願生產，因為生產出的產品無人問津。）</p>
 <p>可是，在並沒有金本位制度所造成的壓力的情況下，德意志銀行直到與歐洲銀行合併前一直推行貨幣緊縮政策，這在兩德統一後阻礙了德國「經濟奇跡」的繼續。「穩定，穩定，還是穩定」是他們恪守的原則，零通貨膨脹則是他們的目標。多年以來，美元對馬克的比價不斷下跌，這就使得原料加工變得更加便宜，這是聯邦銀行所希望看到的。在一個40%的產品都會出口的，而且總處於貿易順差的國家裡，這種政策同時也減少了成千上萬個就業機會。在不斷上升的競爭壓力下，企業不得不經常精簡機構，使資源配置合理化，或者他們乾脆在國外生產，就像許多德國公司所做的那樣。<br>穩定變成了平庸的口號，而它絕不是什麼值得追求的生活目標。生活的目標只能是和平和富足，只有這樣，政治極端主義分子才能被制止。最高的目標是政治穩定，而不是貨幣價值的穩定。正如赫爾穆特․施密特精闢地說，「寧可要5%的微小的通貨膨脹，也不要5%的失業率！」一個微小的通貨膨脹根本就不會損害經濟。一次，弗蘭茨․約瑟夫大帝訪問匈牙利行省時問一個市長：「今年的收成怎麼樣？」那個有趣的人答道：「不壞，陸下，可要是價錢不漲一點的話，我們可沒法活。」一點兒通貨膨脹也是如此，沒有它，經濟就無法真正發展。<br>另外絕對的穩定只是一個幻想。能源、原料、食品甚至勞動市場，它們的價格都處在一種永不停止的變化中。許多商品的價格升高完全是由自然情況造成的，比如：一會兒是橘子的收成因為嚴寒的天氣而不理想，一會兒又是咖啡豆的產量因為天氣酷熱而大幅提高等等。在一個自由經濟中，總產品和勞務的價格總是不停地升升降降。它也會受到政治事件和公眾心理反應的影響，人們又怎能在這樣一種複雜的環境中達到一種絕對的穩定呢？<br>74<br>是什麼使股市波動<br>這項「穩定」政策的後果是災難性的。近十年以來，失業率大多維持在10%的水平上，貨幣數量的增長太少了，不足以推動經濟的發展。現在人們既不消費也不投資，因為無論是消費者還是投資者現在都不得不祈求「神聖」的馬克保佑自己。多年以來人們一直用懷疑的眼光審視在法國和歐洲其他國家中的德意志銀行所奉行的貨幣政策。鑒於馬克在歐洲貨幣體系中的核心作用，這些國家不得不跟隨德意志銀行的每一次調息行動而作出自己相應的調整。通過引入歐元，法國人首先追求的一個目的是削弱德意志銀行。關於歐洲中央銀行行長一職的競爭更加清楚地說明了這一點。雅克․希拉克曾竭盡全力讓他的法蘭西候選人讓․克勞德․特裡謝當選。最後，他由於觸怒了歐盟中鼓吹穩定的強硬派人物而失敗——因為歐盟在履行馬斯特裡赫特條約的同時也要維持它的穩定。這個條約是歐洲一體化的制動閘，因為它要求各國都推行通貨緊縮政策。<br>在以後的幾年中人們可以看出，歐洲中央銀行是否在推行一種聰明的貨幣政策，就像美聯儲所做的那樣，還是它也僅僅像德意志銀行那樣對「穩定」一詞念念不忘。我不敢發表任何預見，只是希望法國和意大利也能在這個均衡的天平上加上自己的砝碼，以促進經濟發展。歐洲經濟的發展也要取決於歐洲中央銀行內部的鬥爭能否擴展到外部來。如果強調穩定的鷹派人物能順利實現自己的目的的話，就不會再有大幅度的經濟發展，失業率也不會有降低的一天了。只有在美國保持目前「世界經濟的火車頭」地位的情況下，才能避免世界經濟衰退的出現。在歐洲的康采恩企業中，只有那些貿易領域遍佈全球的大型公司才擁有好的機會，而那些小型企業，只是致力於本國市場的小企業則沒有。如果歐洲中央銀行能重新回到一種不僅重視貨幣數量，而且也重視經濟發展的貨幣政策上來的話，我認為經濟將出現大幅增長。<br>75<br>大投機家</p>
@@ -509,13 +500,14 @@
     
 
     
-       
+      
     
     
 
     
       <div>
         
+
 
 
 
@@ -606,7 +598,6 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
@@ -622,14 +613,14 @@
         </ul>
       
 
-      <section class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="投機者">
             
               <p class="site-author-name" itemprop="name">投機者</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <div class="site-description motion-element" itemprop="description"></div>
           </div>
 
           
@@ -639,7 +630,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">39</span>
+                    <span class="site-state-item-count">54</span>
                     <span class="site-state-item-name">文章</span>
                   </a>
                 </div>
@@ -649,7 +640,11 @@
                 
                 
                 <div class="site-state-item site-state-categories">
-                  <a href="/categories/index.html">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
                     
                     
                       
@@ -674,7 +669,11 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
                     
                     
                       
@@ -765,7 +764,65 @@
                     
                       
                     
-                    <span class="site-state-item-count">44</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">73</span>
                     <span class="site-state-item-name">標籤</span>
                   </a>
                 </div>
@@ -780,6 +837,8 @@
                 RSS
               </a>
             </div>
+          
+
           
 
           
@@ -813,6 +872,7 @@
           
              <div class="cc-license motion-element" itemprop="license">
               
+              
                 
               
               
@@ -828,16 +888,18 @@
             
           
           
+
         </div>
-      </section>
+      </div>
 
       
       <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
           <div class="post-toc">
 
             
-              
+            
+            
             
 
             
@@ -845,7 +907,7 @@
             
 
           </div>
-        </section>
+        </div>
       <!--/noindex-->
       
 
@@ -853,6 +915,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -901,7 +964,7 @@
     
 
     
-	
+
     
 
     
@@ -909,7 +972,7 @@
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -941,63 +1004,57 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.6.0"></script>
+  <script src="/js/utils.js?v=7.1.2"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.6.0"></script>
+  <script src="/js/motion.js?v=7.1.2"></script>
 
 
 
   
   
 
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.6.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.6.0"></script>
+
+  <script src="/js/schemes/muse.js?v=7.1.2"></script>
 
 
 
   
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.6.0"></script>
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
 
 
 
   
 
 
-
-  
-
-
-
-
-
-
-
-
+  <script src="/js/next-boot.js?v=7.1.2"></script>
 
 
   
 
+  
+
+  
+
+  
+
+
+  
+
+
+  
 
 
 
@@ -1013,6 +1070,9 @@
   
 
   
+
+  
+
   
 
   
